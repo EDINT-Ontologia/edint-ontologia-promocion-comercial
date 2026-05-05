@@ -10,20 +10,29 @@
 <link rel="stylesheet" href="resources/light.css" media="(prefers-color-scheme: light)"/>
 <link rel="stylesheet" href="resources/slider.css" media="screen"/>
 <meta name="color-scheme" content="dark light">
-<script type="module" src="resources/dark-mode-toggle.mjs"></script><div class="darkmode">
-	<dark-mode-toggle class="slider"></dark-mode-toggle>
-</div>
+<script type="module" src="resources/dark-mode-toggle.mjs"></script>
 <link rel="icon" type="image/png" href="resources/rdf.icon"/> <title>Ontología de Promoción Comercial</title>
+<link rel="stylesheet" href="resources/codemirror.css" media="screen"/>
 
+<script src="resources/codemirror.js"></script>
+<script src="resources/matchbrackets.js"></script>
+<script src="resources/turtle.js"></script>
+<script type="module" src="resources/dark-mode-toggle.mjs"></script>
 
 <!-- SCHEMA.ORG METADATA -->
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#","name":"Ontología de Promoción Comercial", "headline":"El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos comerciales. Su alcance incluye la descripción de campañas comerciales, eventos comerciales, zonas de interés económico y comercial, así como las relaciones entre estos elementos y los espacios comerciales, entidades territoriales y direcciones postales. Quedan fuera del alcance de la ontología otros aspectos relacionados con el comercio, como pueden ser los datos del censo de locales comerciales, que son objeto de una ontología específica dentro del mismo proyecto EDINT.", "dateReleased":"Date created", "dateModified":"Date modified", "version":"v0.1.0", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Daniel Doña"},{"@type":"Person","name":"Edna Ruckhaus"},{"@type":"Person","name":"Lucía Sánchez"},{"@type":"Person","name":"Oscar Corcho"},{"@type":"Person","name":"Socorro Bernardos"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
-    <script> 
+    <script>
 function loadHash() {
-  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
+  jQuery(".markdown").each(function(){
+    // No procesar bloques que contengan un <textarea> (ejemplos de código con CodeMirror)
+    if (jQuery(this).find('textarea').length > 0) {
+      return;
+    }
+    jQuery(this).after(marked.parse(jQuery(this).text())).remove();
+  });
 	var hash = location.hash;
 	if($(hash).offset()!=null){
 	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
@@ -51,19 +60,19 @@ function loadTOC(){
 		}
 	  });
 	  t+='</ul>';
-	  $("#toc").html(t); 
+	  $("#toc").html(t);
 }
  $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
  };    $(function(){
-      $("#abstract").load("sections/abstract-es.html"); 
-      $("#introduction").load("sections/introduction-es.html"); 
-      $("#nstable").load("sections/ns-es.html"); 
-      $("#overview").load("sections/overview-es.html"); 
-      $("#description").load("sections/description-es.html"); 
-      $("#crossref").load("sections/crossref-es.html", null, loadHash); 
+      $("#abstract").load("sections/abstract-es.html");
+      $("#introduction").load("sections/introduction-es.html");
+      $("#nstable").load("sections/ns-es.html");
+      $("#overview").load("sections/overview-es.html");
+      $("#description").load("sections/description-es.html");
+      $("#crossref").load("sections/crossref-es.html", null, loadHash);
     });
-    </script> 
+</script>
   </head> 
 
 <body>
