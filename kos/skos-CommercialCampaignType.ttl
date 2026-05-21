@@ -4,9 +4,11 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix cc: <http://creativecommons.org/ns#> .
 
 @prefix edintkos: <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
-@prefix edintevtype: <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType> .
+@prefix edintkoscampaigntype: <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType/> .
 
 #################################################################
 #
@@ -24,9 +26,9 @@ edintkos:CommercialCampaignType a skos:ConceptScheme ;
     rdfs:label "Tipos de evento comercial"@es ;
     dct:title "Concept scheme grouping types of commercial events"@en ;
     dct:title "Esquema de conceptos que agrupa tipos de eventos comerciales"@es ;
-    skos:hasTopConcept edintkoacctype:Voucher ;
-    skos:hasTopConcept edintkoacctype:Discount ;
-    skos:hasTopConcept edintkoacctype:Revitalization .
+    skos:hasTopConcept edintkoscampaigntype:Voucher ;
+    skos:hasTopConcept edintkoscampaigntype:Discount ;
+    skos:hasTopConcept edintkoscampaigntype:Revitalization .
 
 
 #################################################################
@@ -35,17 +37,17 @@ edintkos:CommercialCampaignType a skos:ConceptScheme ;
 #
 #################################################################
 
-edintkoacctype:Voucher a skos:Concept ;
+edintkoscampaigntype:Voucher a skos:Concept ;
 	skos:inScheme edintkos:CommercialCampaignType ;
   	skos:prefLabel "Bono"@es ;
 	skos:prefLabel "Voucher"@en .
 
-edintkoacctype:Discount a skos:Concept ;
+edintkoscampaigntype:Discount a skos:Concept ;
 	skos:inScheme edintkos:CommercialCampaignType ;
   	skos:prefLabel "Descuento"@es ;
 	skos:prefLabel "Discount"@en .
 
-  edintkoacctype:Revitalization a skos:Concept ;
+  edintkoscampaigntype:Revitalization a skos:Concept ;
   skos:inScheme edintkos:CommercialCampaignType ;
   skos:prefLabel "Dinamización"@es ;
   skos:prefLabel "Revitalization"@en  .
