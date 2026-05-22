@@ -4,9 +4,11 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix cc: <http://creativecommons.org/ns#> .
 
 @prefix edintkos: <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
-@prefix edintevtype: <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType> .
+@prefix edintkoseventtype: <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType/> .
 
 #################################################################
 #
@@ -24,9 +26,9 @@ edintkos:CommercialEventType a skos:ConceptScheme ;
     rdfs:label "Tipos de evento comercial"@es ;
     dct:title "Concept scheme grouping types of commercial events"@en ;
     dct:title "Esquema de conceptos que agrupa tipos de eventos comerciales"@es ;
-    skos:hasTopConcept edintkoacctype:Fair ;
-    skos:hasTopConcept edintkoacctype:ThematicMarket ;
-    skos:hasTopConcept edintkoacctype:LocalEvent .
+    skos:hasTopConcept edintkoseventtype:Fair ;
+    skos:hasTopConcept edintkoseventtype:ThematicMarket ;
+    skos:hasTopConcept edintkoseventtype:LocalEvent .
 
 
 #################################################################
@@ -35,17 +37,17 @@ edintkos:CommercialEventType a skos:ConceptScheme ;
 #
 #################################################################
 
-edintkoacctype:Fair a skos:Concept ;
+edintkoseventtype:Fair a skos:Concept ;
 	skos:inScheme edintkos:CommercialEventType ;
   	skos:prefLabel "Feria"@es ;
 	skos:prefLabel "Fair"@en .
 
-edintkoacctype:ThematicMarket a skos:Concept ;
+edintkoseventtype:ThematicMarket a skos:Concept ;
 	skos:inScheme edintkos:CommercialEventType ;
   	skos:prefLabel "Mercado temático"@es ;
 	skos:prefLabel "Thematic market"@en .
 
-  edintkoacctype:LocalEvent a skos:Concept ;
+  edintkoseventtype:LocalEvent a skos:Concept ;
   skos:inScheme edintkos:CommercialEventType ;
   skos:prefLabel "Evento local"@es ;
   skos:prefLabel "Local Event"@en  .
