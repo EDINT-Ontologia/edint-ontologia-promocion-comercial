@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#"
      xml:base="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:gsp="http://www.opengis.net/ont/geosparql#"
      xmlns:mod="https://w3id.org/mod#"
      xmlns:org="http://www.w3.org/ns/org#"
@@ -39,6 +38,7 @@
         <dcterms:description xml:lang="es">El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos.</dcterms:description>
         <dcterms:description xml:lang="en">The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to commecial promotion, such as campaigns and events.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-15</dcterms:issued>
         <dcterms:title xml:lang="es">Ontología de Promoción Comercial</dcterms:title>
         <dcterms:title xml:lang="en">The Commercial Promotion Ontology</dcterms:title>
         <vann:preferredNamespacePrefix>edintpro</vann:preferredNamespacePrefix>
@@ -550,7 +550,7 @@
     <owl:DatatypeProperty rdf:about="https://datos.ign.es/def/geo_core#xETRS89">
         <rdfs:domain rdf:resource="http://www.opengis.net/ont/sf#Point"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
+        <dcterms:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dcterms:source>
         <rdfs:comment xml:lang="es">Coordenada X en metros (ETRS89)</rdfs:comment>
         <rdfs:comment xml:lang="en">X-Coordinate in meters (ETRS89)</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://datos.ign.es/def/geo_core#"/>
@@ -564,7 +564,7 @@
     <owl:DatatypeProperty rdf:about="https://datos.ign.es/def/geo_core#yETRS89">
         <rdfs:domain rdf:resource="http://www.opengis.net/ont/sf#Point"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <dc:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dc:source>
+        <dcterms:source xml:lang="es">Catálogo de Objetos Geográficos BTN100.</dcterms:source>
         <rdfs:comment xml:lang="es">Coordenada Y en metros (ETRS89)</rdfs:comment>
         <rdfs:comment xml:lang="en">Y-Coordinate in meters (ETRS89)</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://datos.ign.es/def/geo_core#"/>
