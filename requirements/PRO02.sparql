@@ -1,7 +1,7 @@
 
 # PRO02: ¿Qué tipo de campañas (bonos, descuentos, dinamización) son más frecuentes?
 
-PREFIX edintpro: <http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#>
+PREFIX edintpro: <https://edint.es/def/promocion-comercial#>
 PREFIX skos:     <http://www.w3.org/2004/02/skos/core#>
 
 SELECT ?campaignType ?campaignTypeLabel (COUNT(?campaign) AS ?numCampaigns)

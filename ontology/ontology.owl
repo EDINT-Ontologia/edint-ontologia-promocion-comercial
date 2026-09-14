@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#"
+<rdf:RDF xmlns="https://edint.es/def/promocion-comercial#"
      xml:base="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion"
      xmlns:gsp="http://www.opengis.net/ont/geosparql#"
      xmlns:mod="https://w3id.org/mod#"
@@ -21,9 +21,9 @@
      xmlns:schema="http://schema.org/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:esequip="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento#"
-     xmlns:edintcom="http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#"
+     xmlns:edintcom="https://edint.es/def/censo-locales#"
      xmlns:edintinf="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#"
-     xmlns:edintpro="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#"
+     xmlns:edintpro="https://edint.es/def/promocion-comercial#"
      xmlns:edintveh="http://vocab.linkeddata.es/datosabiertos/def/transporte/censovehiculos#"
      xmlns:edintzone="http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
      xmlns:esequip-kos="http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/">
@@ -42,7 +42,7 @@
         <dcterms:title xml:lang="es">Ontología de Promoción Comercial</dcterms:title>
         <dcterms:title xml:lang="en">The Commercial Promotion Ontology</dcterms:title>
         <vann:preferredNamespacePrefix>edintpro</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#"/>
+        <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/promocion-comercial#"/>
         <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
     
@@ -241,17 +241,17 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone -->
+    <!-- https://edint.es/def/censo-locales#locatedInZone -->
 
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone">
-        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#"/>
+    <owl:ObjectProperty rdf:about="https://edint.es/def/censo-locales#locatedInZone">
+        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/censo-locales#"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialCampaignType -->
+    <!-- https://edint.es/def/promocion-comercial#hasCommercialCampaignType -->
 
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialCampaignType">
+    <owl:ObjectProperty rdf:about="https://edint.es/def/promocion-comercial#hasCommercialCampaignType">
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -271,9 +271,9 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialEventType -->
+    <!-- https://edint.es/def/promocion-comercial#hasCommercialEventType -->
 
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialEventType">
+    <owl:ObjectProperty rdf:about="https://edint.es/def/promocion-comercial#hasCommercialEventType">
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -293,9 +293,9 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#includesCommercialSpace -->
+    <!-- https://edint.es/def/promocion-comercial#includesCommercialSpace -->
 
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#includesCommercialSpace">
+    <owl:ObjectProperty rdf:about="https://edint.es/def/promocion-comercial#includesCommercialSpace">
         <rdfs:comment xml:lang="en">It relates an entitiy, especially a Campaign, to the commercial space that has joined it.</rdfs:comment>
         <rdfs:comment xml:lang="es">Relaciona una entidad, principalmente una campaña, con el espacio comercial que se ha adherido a ella.</rdfs:comment>
         <rdfs:label xml:lang="en">includes commercial space</rdfs:label>
@@ -304,9 +304,9 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#locatedInZone -->
+    <!-- https://edint.es/def/promocion-comercial#locatedInZone -->
 
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#locatedInZone">
+    <owl:ObjectProperty rdf:about="https://edint.es/def/promocion-comercial#locatedInZone">
         <rdfs:comment xml:lang="en">It relates en entity, especially a commercial space, event or campaign, to the zone where it is.</rdfs:comment>
         <rdfs:comment xml:lang="es">Relaciona una entidad, princiaplmente un espacio, campaña o evento comercial, con la zona en la que está.</rdfs:comment>
         <rdfs:label xml:lang="en">located in zone</rdfs:label>
@@ -508,9 +508,9 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#budget -->
+    <!-- https://edint.es/def/promocion-comercial#budget -->
 
-    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#budget">
+    <owl:DatatypeProperty rdf:about="https://edint.es/def/promocion-comercial#budget">
         <rdfs:comment xml:lang="es">Indica la estimación del coste de un evento o similar.</rdfs:comment>
         <rdfs:comment xml:lang="en">It captures an estimate of expenditure for an event or something alike</rdfs:comment>
         <rdfs:label xml:lang="en">budget</rdfs:label>
@@ -519,9 +519,9 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#numberOfCommercialSpaces -->
+    <!-- https://edint.es/def/promocion-comercial#numberOfCommercialSpaces -->
 
-    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#numberOfCommercialSpaces">
+    <owl:DatatypeProperty rdf:about="https://edint.es/def/promocion-comercial#numberOfCommercialSpaces">
         <rdfs:comment xml:lang="en">It captures the number of commercial spaces joind to a campaign o something alike.</rdfs:comment>
         <rdfs:comment xml:lang="es">indica la cantidad de espacios comerciales adheridos a una campaña o similar.</rdfs:comment>
         <rdfs:label xml:lang="en">number of commercial spaces</rdfs:label>
@@ -613,11 +613,11 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#CommercialSpace -->
+    <!-- https://edint.es/def/promocion-comercial#CommercialSpace -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#CommercialSpace">
+    <owl:Class rdf:about="https://edint.es/def/promocion-comercial#CommercialSpace">
         <rdfs:subClassOf rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement"/>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#"/>
+        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/censo-locales#"/>
     </owl:Class>
     
 

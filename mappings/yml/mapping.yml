@@ -1,7 +1,7 @@
 prefixes:
   ex: "https://example.org/id/"
-  edintpro: "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#"
-  edintcom: "http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#"
+  edintpro: "https://edint.es/def/promocion-comercial#"
+  edintcom: "https://edint.es/def/censo-locales#"
   edintzone: "http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
   schema: "http://schema.org/"
   dcterms: "http://purl.org/dc/terms/"

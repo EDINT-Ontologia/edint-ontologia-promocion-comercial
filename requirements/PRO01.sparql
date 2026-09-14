@@ -1,7 +1,7 @@
 
 # PRO01: ¿Qué campañas comerciales se han realizado en un municipio?
 
-PREFIX edintpro: <http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#>
+PREFIX edintpro: <https://edint.es/def/promocion-comercial#>
 PREFIX esadm:    <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
 PREFIX dcterms:  <http://purl.org/dc/terms/>
 

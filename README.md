@@ -8,7 +8,7 @@ El propósito de esta ontología es proporcionar un vocabulario común para la r
 
 # Prefijo y espacio de nombres (Prefix and namespace)
 
-El prefijo de la ontología es: edintcom y se encuentra publicada en el espacio de nombres: [http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#](http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#)
+El prefijo de la ontología es: edintcom y se encuentra publicada en el espacio de nombres: [https://edint.es/def/promocion-comercial#](https://edint.es/def/promocion-comercial#)
 
 # Modelo conceptual (Ontology conceptualization)
 
