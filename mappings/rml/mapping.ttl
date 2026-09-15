@@ -1,6 +1,6 @@
 @prefix ex: <https://example.org/id/>.
-@prefix edintpro: <http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#>.
-@prefix edintcom: <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#>.
+@prefix edintpro: <https://edint.es/def/promocion-comercial#>.
+@prefix edintcom: <https://edint.es/def/censo-locales#>.
 @prefix edintzone: <http://vocab.linkeddata.es/datosabiertos/def/common/zone#>.
 @prefix schema: <http://schema.org/>.
 @prefix dcterms: <http://purl.org/dc/terms/>.

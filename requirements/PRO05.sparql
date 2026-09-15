@@ -1,7 +1,7 @@
 
 # PRO05: ¿Qué periodos del año concentran mayor número de eventos comerciales?
 
-PREFIX edintpro: <http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#>
+PREFIX edintpro: <https://edint.es/def/promocion-comercial#>
 PREFIX schema:   <http://schema.org/>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 
@@ -18,7 +18,7 @@ ORDER BY DESC(?numEvents)
 
 # Variante por año y mes
 
-PREFIX edintpro: <http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#>
+PREFIX edintpro: <https://edint.es/def/promocion-comercial#>
 PREFIX schema:   <http://schema.org/>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 

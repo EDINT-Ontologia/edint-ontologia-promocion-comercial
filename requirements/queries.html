@@ -194,7 +194,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
             </ul>
         </div>
         <div class="main-content">
-    <section class="file-card" id="PRO01_sparql"><div class="file-header">PRO01.sparql</div><div class="query-block"><span class="query-title">PRO01: ¿Qué campañas comerciales se han realizado en un municipio?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#&gt;</span>
+    <section class="file-card" id="PRO01_sparql"><div class="file-header">PRO01.sparql</div><div class="query-block"><span class="query-title">PRO01: ¿Qué campañas comerciales se han realizado en un municipio?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/promocion-comercial#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">esadm</span><span class="p">:</span>    <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">dcterms</span><span class="p">:</span>  <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
 
@@ -208,7 +208,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="p">}</span>
 <span class="k">ORDER BY</span> <span class="nv">?municipio</span> <span class="nv">?campaignId</span>
 </pre></div>
-</div></section><section class="file-card" id="PRO02_sparql"><div class="file-header">PRO02.sparql</div><div class="query-block"><span class="query-title">PRO02: ¿Qué tipo de campañas (bonos, descuentos, dinamización) son más frecuentes?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#&gt;</span>
+</div></section><section class="file-card" id="PRO02_sparql"><div class="file-header">PRO02.sparql</div><div class="query-block"><span class="query-title">PRO02: ¿Qué tipo de campañas (bonos, descuentos, dinamización) son más frecuentes?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/promocion-comercial#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">skos</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2004/02/skos/core#&gt;</span>
 
 <span class="k">SELECT</span> <span class="nv">?campaignType</span> <span class="nv">?campaignTypeLabel</span> <span class="p">(</span><span class="nf">COUNT</span><span class="p">(</span><span class="nv">?campaign</span><span class="p">)</span> <span class="k">AS</span> <span class="nv">?numCampaigns</span><span class="p">)</span>
@@ -227,7 +227,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="k">GROUP BY</span> <span class="nv">?campaignType</span> <span class="nv">?campaignTypeLabel</span>
 <span class="k">ORDER BY</span> <span class="k">DESC</span><span class="p">(</span><span class="nv">?numCampaigns</span><span class="p">)</span>
 </pre></div>
-</div></section><section class="file-card" id="PRO03_sparql"><div class="file-header">PRO03.sparql</div><div class="query-block"><span class="query-title">PRO03: ¿Cuántos comercios se han adherido a cada campaña?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#&gt;</span>
+</div></section><section class="file-card" id="PRO03_sparql"><div class="file-header">PRO03.sparql</div><div class="query-block"><span class="query-title">PRO03: ¿Cuántos comercios se han adherido a cada campaña?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/promocion-comercial#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">dcterms</span><span class="p">:</span>  <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
 
 <span class="k">SELECT</span> <span class="nv">?campaign</span> <span class="nv">?campaignId</span> <span class="nv">?numCommercialSpaces</span>
@@ -255,7 +255,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="k">GROUP BY</span> <span class="nv">?campaign</span> <span class="nv">?campaignId</span>
 <span class="k">ORDER BY</span> <span class="k">DESC</span><span class="p">(</span><span class="nv">?numCommercialSpaces</span><span class="p">)</span>
 </pre></div>
-</div></section><section class="file-card" id="PRO04_sparql"><div class="file-header">PRO04.sparql</div><div class="query-block"><span class="query-title">PRO04: ¿Qué eventos comerciales se han celebrado y en qué ubicaciones de un municipio?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#&gt;</span>
+</div></section><section class="file-card" id="PRO04_sparql"><div class="file-header">PRO04.sparql</div><div class="query-block"><span class="query-title">PRO04: ¿Qué eventos comerciales se han celebrado y en qué ubicaciones de un municipio?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/promocion-comercial#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">schema</span><span class="p">:</span>   <span class="nl">&lt;http://schema.org/&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">esadm</span><span class="p">:</span>    <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">dcterms</span><span class="p">:</span>  <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
@@ -279,7 +279,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 
 <span class="c"># Variante con coordenadas de zona de ubicación</span>
 
-<span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/promocion-comercial#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">esadm</span><span class="p">:</span>    <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">geo</span><span class="p">:</span>      <span class="nl">&lt;http://www.opengis.net/ont/geosparql#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">sf</span><span class="p">:</span>       <span class="nl">&lt;http://www.opengis.net/ont/sf#&gt;</span>
@@ -317,7 +317,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="p">}</span>
 <span class="k">ORDER BY</span> <span class="nv">?eventId</span>
 </pre></div>
-</div></section><section class="file-card" id="PRO05_sparql"><div class="file-header">PRO05.sparql</div><div class="query-block"><span class="query-title">PRO05: ¿Qué periodos del año concentran mayor número de eventos comerciales?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#&gt;</span>
+</div></section><section class="file-card" id="PRO05_sparql"><div class="file-header">PRO05.sparql</div><div class="query-block"><span class="query-title">PRO05: ¿Qué periodos del año concentran mayor número de eventos comerciales?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/promocion-comercial#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">schema</span><span class="p">:</span>   <span class="nl">&lt;http://schema.org/&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">xsd</span><span class="p">:</span>      <span class="nl">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span>
 
@@ -334,7 +334,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 
 <span class="c"># Variante por año y mes</span>
 
-<span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/promocion-comercial#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">schema</span><span class="p">:</span>   <span class="nl">&lt;http://schema.org/&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">xsd</span><span class="p">:</span>      <span class="nl">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span>
 
@@ -355,7 +355,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="k">GROUP BY</span> <span class="nv">?yearMonth</span>
 <span class="k">ORDER BY</span> <span class="k">DESC</span><span class="p">(</span><span class="nv">?numEvents</span><span class="p">)</span>
 </pre></div>
-</div></section><section class="file-card" id="PRO07_sparql"><div class="file-header">PRO07.sparql</div><div class="query-block"><span class="query-title">PRO06: ¿Qué zonas concentran mayor número de eventos o campañas?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#&gt;</span>
+</div></section><section class="file-card" id="PRO07_sparql"><div class="file-header">PRO07.sparql</div><div class="query-block"><span class="query-title">PRO06: ¿Qué zonas concentran mayor número de eventos o campañas?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/promocion-comercial#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
 <span class="k">SELECT</span> <span class="nv">?zone</span> <span class="nv">?zoneLabel</span> <span class="p">(</span><span class="nf">COUNT</span><span class="p">(</span><span class="nv">?activity</span><span class="p">)</span> <span class="k">AS</span> <span class="nv">?numActivities</span><span class="p">)</span>
@@ -377,9 +377,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 
 
 
-<span class="c"># Para diferenciar entre eventos y campañasPREFIX edintpro: &lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#&gt;</span>
+<span class="c"># Para diferenciar entre eventos y campañasPREFIX edintpro: &lt;https://edint.es/def/promocion-comercial#&gt;</span>
 
-<span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintpro</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/promocion-comercial#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
 <span class="k">SELECT</span>
