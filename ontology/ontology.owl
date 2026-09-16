@@ -25,15 +25,29 @@
      xmlns:edintinf="https://edint.es/def/infraestructura#"
      xmlns:edintpro="https://edint.es/def/promocion-comercial#"
      xmlns:edintveh="https://edint.es/def/censo-vehiculos#"
-     xmlns:edintzone="https://edint.es/def/zona-regulatoria#">
-    <owl:Ontology rdf:about="https://edint.es/def/promocion-comercial#">
+     xmlns:edintzone="https://edint.es/def/zona-regulatoria#" xmlns:foaf="http://xmlns.com/foaf/0.1/">    <owl:Ontology rdf:about="https://edint.es/def/promocion-comercial#">
         <owl:versionIRI rdf:resource="https://edint.es/def/promocion-comercial/0.1.0"/>
         <dcterms:created>2026-04-15</dcterms:created>
-        <dcterms:creator>Daniel Doña</dcterms:creator>
-        <dcterms:creator>Edna Ruckhaus</dcterms:creator>
-        <dcterms:creator>Lucía Sánchez</dcterms:creator>
-        <dcterms:creator>Oscar Corcho</dcterms:creator>
-        <dcterms:creator>Socorro Bernardos</dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Daniel Doña</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Edna Ruckhaus</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Lucía Sánchez</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Oscar Corcho</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Socorro Bernardos</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
         <dcterms:description xml:lang="es">El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos.</dcterms:description>
         <dcterms:description xml:lang="en">The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to commecial promotion, such as campaigns and events.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
@@ -49,6 +63,9 @@
         <dcterms:abstract xml:lang="es">Ontología EDINT que proporciona un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos.</dcterms:abstract>
         <dcterms:abstract xml:lang="en">EDINT ontology providing a common vocabulary for representing the main entities and data related to commercial promotion, such as campaigns and events.</dcterms:abstract>
     </owl:Ontology>
+    <foaf:Organization rdf:about="https://oeg.fi.upm.es/">
+        <foaf:name>Ontology Engineering Group, UPM</foaf:name>
+    </foaf:Organization>
     
 
 
