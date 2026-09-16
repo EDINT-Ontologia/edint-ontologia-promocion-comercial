@@ -2,7 +2,7 @@ prefixes:
   ex: "https://example.org/id/"
   edintpro: "https://edint.es/def/promocion-comercial#"
   edintcom: "https://edint.es/def/censo-locales#"
-  edintzone: "http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
+  edintzone: "https://edint.es/def/zona-regulatoria#"
   schema: "http://schema.org/"
   dcterms: "http://purl.org/dc/terms/"
   geosparql: "http://www.opengis.net/ont/geosparql#"

@@ -1,7 +1,7 @@
 @prefix ex: <https://example.org/id/>.
 @prefix edintpro: <https://edint.es/def/promocion-comercial#>.
 @prefix edintcom: <https://edint.es/def/censo-locales#>.
-@prefix edintzone: <http://vocab.linkeddata.es/datosabiertos/def/common/zone#>.
+@prefix edintzone: <https://edint.es/def/zona-regulatoria#>.
 @prefix schema: <http://schema.org/>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#>.
