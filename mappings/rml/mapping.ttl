@@ -6,8 +6,8 @@
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix edintkoacctype: <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType/>.
-@prefix edintkoaccCamtype: <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType/>.
+@prefix edintkoacctype: <https://edint.es/kos/CommercialEventType/>.
+@prefix edintkoaccCamtype: <https://edint.es/kos/CommercialCampaignType/>.
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
@@ -82,7 +82,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType/{tipo_event}";
+			rr:template "https://edint.es/kos/CommercialEventType/{tipo_event}";
 			rr:termType rr:IRI
 		];
 	];
@@ -289,7 +289,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType/{tipo_campania}";
+			rr:template "https://edint.es/kos/CommercialCampaignType/{tipo_campania}";
 			rr:termType rr:IRI
 		];
 	].

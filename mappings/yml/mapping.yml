@@ -7,8 +7,8 @@ prefixes:
   dcterms: "http://purl.org/dc/terms/"
   geosparql: "http://www.opengis.net/ont/geosparql#"
   xsd: "http://www.w3.org/2001/XMLSchema#"
-  edintkoacctype: "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType/"
-  edintkoaccCamtype: "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType/"
+  edintkoacctype: "https://edint.es/kos/CommercialEventType/"
+  edintkoaccCamtype: "https://edint.es/kos/CommercialCampaignType/"
 
 sources:
   promociones: ['promocion_comercial.csv~csv']
@@ -24,7 +24,7 @@ mappings:
       - [dcterms:identifier, $(evento_id) ]
       - [rdfs:label, $(nombre) ]
       - [rdfs:comment, $(descripcion) ]
-      - [edintcom:hasCommercialEventType, "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType/$(tipo_event)~iri" ]
+      - [edintcom:hasCommercialEventType, "https://edint.es/kos/CommercialEventType/$(tipo_event)~iri" ]
       - [edintcom:locatedInZone, "http://vocab.linkeddata.es/datosabiertos/recurso/zona/$(zona_id)~iri"]
       - [schema:startDate, $(fecha_inicio), xsd:dateTime ]
       - [schema:endDate, $(fecha_fin), xsd:dateTime ]
@@ -52,7 +52,7 @@ mappings:
       - [edintcom:includes, "http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/$(espacioComercial_id)~iri"]
       - [schema:startDate, $(fecha_inicio), xsd:dateTime]
       - [schema:endDate, $(fecha_fin), xsd:dateTime]
-      - [edintpro:hasCommercialCampaignType, "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType/$(tipo_campania)~iri"]
+      - [edintpro:hasCommercialCampaignType, "https://edint.es/kos/CommercialCampaignType/$(tipo_campania)~iri"]
 
   espacioComercial:
     sources:
