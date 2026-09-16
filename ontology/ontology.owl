@@ -25,8 +25,7 @@
      xmlns:edintinf="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#"
      xmlns:edintpro="https://edint.es/def/promocion-comercial#"
      xmlns:edintveh="http://vocab.linkeddata.es/datosabiertos/def/transporte/censovehiculos#"
-     xmlns:edintzone="http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
-     xmlns:esequip-kos="http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/">
+     xmlns:edintzone="http://vocab.linkeddata.es/datosabiertos/def/common/zone#">
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion">
         <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/0.1.0"/>
         <dcterms:created>2026-04-15</dcterms:created>
@@ -258,7 +257,7 @@
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/CommercialCampaignType"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -280,7 +279,7 @@
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/CommercialEventType"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -883,9 +882,9 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType -->
+    <!-- https://edint.es/kos/CommercialCampaignType -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/CommercialCampaignType">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="en">Commercial campaign type</rdfs:label>
         <rdfs:label xml:lang="es">Tipo de campaña comercial</rdfs:label>
@@ -893,9 +892,9 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType -->
+    <!-- https://edint.es/kos/CommercialEventType -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/CommercialEventType">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="en">Commercial event type</rdfs:label>
         <rdfs:label xml:lang="es">Tipo de evento comercial</rdfs:label>
@@ -903,9 +902,9 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE -->
+    <!-- https://edint.es/kos/IAE -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/IAE">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="es">IAE</rdfs:label>
     </owl:NamedIndividual>
