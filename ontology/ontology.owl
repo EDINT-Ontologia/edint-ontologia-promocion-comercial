@@ -38,11 +38,16 @@
         <dcterms:description xml:lang="en">The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to commecial promotion, such as campaigns and events.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-15</dcterms:issued>
-        <dcterms:title xml:lang="es">Ontología de Promoción Comercial</dcterms:title>
-        <dcterms:title xml:lang="en">The Commercial Promotion Ontology</dcterms:title>
+        <dcterms:title xml:lang="es">Ontología EDINT de Promoción Comercial</dcterms:title>
+        <dcterms:title xml:lang="en">EDINT Commercial Promotion Ontology</dcterms:title>
         <vann:preferredNamespacePrefix>edintpro</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/promocion-comercial#"/>
         <owl:versionInfo>0.1.0</owl:versionInfo>
+        <dcterms:publisher rdf:resource="https://www.femp.es/"/>
+        <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT de Promoción Comercial. EDINT. Revision: v0.1.0.</dcterms:bibliographicCitation>
+        <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
+        <dcterms:abstract xml:lang="es">Ontología EDINT que proporciona un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos.</dcterms:abstract>
+        <dcterms:abstract xml:lang="en">EDINT ontology providing a common vocabulary for representing the main entities and data related to commercial promotion, such as campaigns and events.</dcterms:abstract>
     </owl:Ontology>
     
 

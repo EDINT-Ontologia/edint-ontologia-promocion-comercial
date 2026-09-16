@@ -1,4 +1,4 @@
-# Ontología EDINT de Promoción Comercial (EDINT Commercial Promotion Ontology)
+# Ontología EDINT de Promoción Comercial
 
 La ontología de Promoción Comercial representa el dominio de las promociones comerciales, incluyendo eventos y campañas.
 
