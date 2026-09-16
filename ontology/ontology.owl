@@ -26,7 +26,7 @@
      xmlns:edintpro="https://edint.es/def/promocion-comercial#"
      xmlns:edintveh="https://edint.es/def/censo-vehiculos#"
      xmlns:edintzone="https://edint.es/def/zona-regulatoria#" xmlns:foaf="http://xmlns.com/foaf/0.1/">    <owl:Ontology rdf:about="https://edint.es/def/promocion-comercial#">
-        <owl:versionIRI rdf:resource="https://edint.es/def/promocion-comercial/0.1.0"/>
+        <owl:versionIRI rdf:resource="https://edint.es/def/promocion-comercial/0.2.1"/>
         <dcterms:created>2026-04-15</dcterms:created>
         <dcterms:creator rdf:parseType="Resource">
             <foaf:name>Daniel Doña</foaf:name>
@@ -56,7 +56,7 @@
         <dcterms:title xml:lang="en">EDINT Commercial Promotion Ontology</dcterms:title>
         <vann:preferredNamespacePrefix>edintpro</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/promocion-comercial#"/>
-        <owl:versionInfo>0.1.0</owl:versionInfo>
+        <owl:versionInfo>0.2.1</owl:versionInfo>
         <dcterms:publisher rdf:resource="https://www.femp.es/"/>
         <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT de Promoción Comercial. EDINT. Revision: v0.1.0.</dcterms:bibliographicCitation>
         <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
