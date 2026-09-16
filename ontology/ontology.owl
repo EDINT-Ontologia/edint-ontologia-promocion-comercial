@@ -25,8 +25,7 @@
      xmlns:edintinf="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#"
      xmlns:edintpro="https://edint.es/def/promocion-comercial#"
      xmlns:edintveh="http://vocab.linkeddata.es/datosabiertos/def/transporte/censovehiculos#"
-     xmlns:edintzone="http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
-     xmlns:esequip-kos="http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/">
+     xmlns:edintzone="http://vocab.linkeddata.es/datosabiertos/def/common/zone#">
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion">
         <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/0.1.0"/>
         <dcterms:created>2026-04-15</dcterms:created>
