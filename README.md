@@ -1,5 +1,8 @@
 # Ontología EDINT de Promoción Comercial (EDINT Commercial Promotion Ontology)
 
+![Prefijo](https://img.shields.io/badge/prefijo-edintpro-informational)
+[![Licencia](https://img.shields.io/badge/licencia-CC%20BY--SA%204.0-lightgrey)](LICENSE)
+
 La ontología de Promoción Comercial representa el dominio de las promociones comerciales, incluyendo eventos y campañas.
 
 # Propósito y alcance de la ontología (Purpose and scope of the ontology)
