@@ -22,27 +22,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://vocab.linkeddata.es/datosabiertos/recurso/campania-comercial/CAMP-2025-CH-001>
-  a edintcom:CommercialCampaign;
+  a edintpro:CommercialCampaign;
   dcterms:identifier "CAMP-2025-CH-001";
   rdfs:comment "Evento local de dinamización comercial en la zona gastronómica del Mercado de Chamberí, tomando como referencia la oferta real de restauración del mercado y sus horarios de servicio.";
   schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
   schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
   edintcom:includes <http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/COM-CH-0001>;
-  edintcom:locatedInZone <http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001>;
+  edintpro:locatedInZone <http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001>;
   edintpro:hasCommercialCampaignType edintkoaccCamtype:Revitalization;
   rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
 
 <http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/COM-CH-0001> a
-    edintcom:CommercialSpace;
-  edintcom:locatedInZone <http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001> .
+    edintpro:CommercialSpace;
+  edintpro:locatedInZone <http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001> .
 
 <http://vocab.linkeddata.es/datosabiertos/recurso/evento-comercial/EV-2025-CH-001>
-  a edintcom:CommercialEvent;
+  a edintpro:CommercialEvent;
   dcterms:identifier "EV-2025-CH-001";
   schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
   schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
-  edintcom:hasCommercialEventType edintkoacctype:LocalEvent;
-  edintcom:locatedInZone <http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001>;
+  edintpro:hasCommercialEventType edintkoacctype:LocalEvent;
+  edintpro:locatedInZone <http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001>;
   rdfs:comment "Evento local de dinamización comercial en la zona gastronómica del Mercado de Chamberí, tomando como referencia la oferta real de restauración del mercado y sus horarios de servicio.";
   rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
 
