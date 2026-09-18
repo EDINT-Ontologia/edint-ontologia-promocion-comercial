@@ -67,7 +67,7 @@
             <foaf:homepage rdf:resource="https://www.femp.es/"/>
             <schema:affiliation>Federación Española de Municipios y Provincias</schema:affiliation>
         </dcterms:publisher>
-        <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT de Promoción Comercial. EDINT. Revision: v0.2.1.</dcterms:bibliographicCitation>
+        <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT de Promoción Comercial. EDINT. Revisión: v0.2.1.</dcterms:bibliographicCitation>
         <dcterms:bibliographicCitation xml:lang="en">EDINT Commercial Promotion Ontology. EDINT. Revision: v0.2.1.</dcterms:bibliographicCitation>
         <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
         <dcterms:abstract xml:lang="es">Ontología EDINT que proporciona un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos.</dcterms:abstract>
