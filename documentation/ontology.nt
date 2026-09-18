@@ -1,19 +1,97 @@
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/0.1.0> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/dc/terms/created> "2026-04-15" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/dc/terms/creator> "Daniel Doña" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/dc/terms/creator> "Edna Ruckhaus" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/dc/terms/creator> "Lucía Sánchez" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/dc/terms/creator> "Oscar Corcho" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/dc/terms/creator> "Socorro Bernardos" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/dc/terms/description> "El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/dc/terms/description> "The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to commecial promotion, such as campaigns and events."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/dc/terms/title> "Ontología de Promoción Comercial"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/dc/terms/title> "The Commercial Promotion Ontology"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edintpro" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://edint.es/def/promocion-comercial#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://edint.es/def/promocion-comercial#> <http://www.w3.org/2002/07/owl#versionIRI> <https://edint.es/def/promocion-comercial/0.2.1> .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/abstract> "EDINT ontology providing a common vocabulary for representing the main entities and data related to commercial promotion, such as campaigns and events."@en .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/abstract> "Ontología EDINT que proporciona un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos."@es .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/bibliographicCitation> "EDINT Commercial Promotion Ontology. EDINT. Revision: v0.2.1."@en .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/bibliographicCitation> "Ontología EDINT de Promoción Comercial. EDINT. Revisión: v0.2.1."@es .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/created> "2026-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/creator> _:genid1 .
+_:genid1 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" .
+_:genid1 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/creator> _:genid2 .
+_:genid2 <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" .
+_:genid2 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/creator> _:genid3 .
+_:genid3 <http://xmlns.com/foaf/0.1/name> "Lucía Sánchez" .
+_:genid3 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/creator> _:genid4 .
+_:genid4 <http://xmlns.com/foaf/0.1/name> "Oscar Corcho" .
+_:genid4 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/creator> _:genid5 .
+_:genid5 <http://xmlns.com/foaf/0.1/name> "Socorro Bernardos" .
+_:genid5 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/description> "El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos."@es .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/description> "The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to commecial promotion, such as campaigns and events."@en .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/issued> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/modified> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/publisher> _:genid6 .
+_:genid6 <http://xmlns.com/foaf/0.1/name> "FEMP" .
+_:genid6 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> .
+_:genid6 <http://schema.org/affiliation> "Federación Española de Municipios y Provincias" .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/title> "EDINT Commercial Promotion Ontology"@en .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/dc/terms/title> "Ontología EDINT de Promoción Comercial"@es .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edintpro" .
+<https://edint.es/def/promocion-comercial#> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://edint.es/def/promocion-comercial#> .
+<https://edint.es/def/promocion-comercial#> <http://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial> .
+<https://edint.es/def/promocion-comercial#> <http://schema.org/creativeWorkStatus> "Ontology Specification"@en .
+<https://edint.es/def/promocion-comercial#> <http://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
+<https://edint.es/def/promocion-comercial#> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial Promotion"@en .
+<https://edint.es/def/promocion-comercial#> <http://www.w3.org/2000/01/rdf-schema#label> "Promoción Comercial"@es .
+<https://edint.es/def/promocion-comercial#> <http://www.w3.org/2002/07/owl#priorVersion> <https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/releases/tag/v0.2.0> .
+<https://edint.es/def/promocion-comercial#> <http://www.w3.org/2002/07/owl#versionInfo> "0.2.1" .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#jsonldSerialization> "ontology.jsonld" .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#ntSerialization> "ontology.nt" .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#rdfxmlSerialization> "ontology.rdf" .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#turtleSerialization> "ontology.ttl" .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid7 .
+_:genid7 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.geonames.org/ontology> .
+_:genid7 <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames"@es .
+_:genid7 <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames"@en .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid8 .
+_:genid8 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal> .
+_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "Postal Address (esdir)"@en .
+_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "Dirección Postal (esdir)"@es .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid9 .
+_:genid9 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero> .
+_:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "Street catalogue (escjr)"@en .
+_:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "Callejero (escjr)"@es .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid10 .
+_:genid10 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "Territory (esadm)"@en .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "Territorio (esadm)"@es .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid11 .
+_:genid11 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.opengis.net/ont/geosparql> .
+_:genid11 <http://www.w3.org/2000/01/rdf-schema#label> "GeoSPARQL"@es .
+_:genid11 <http://www.w3.org/2000/01/rdf-schema#label> "GeoSPARQL"@en .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid12 .
+_:genid12 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.ciudadesabiertas.es/def/transporte/trafico> .
+_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "Tráfico (Ciudades Abiertas)"@es .
+_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "Traffic (Ciudades Abiertas)"@en .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid13 .
+_:genid13 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.opengis.net/ont/sf> .
+_:genid13 <http://www.w3.org/2000/01/rdf-schema#label> "OGC Simple Features"@es .
+_:genid13 <http://www.w3.org/2000/01/rdf-schema#label> "OGC Simple Features"@en .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid14 .
+_:genid14 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/2006/time> .
+_:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "OWL-Time"@es .
+_:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "OWL-Time"@en .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid15 .
+_:genid15 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://datos.ign.es/def/geo_core> .
+_:genid15 <http://www.w3.org/2000/01/rdf-schema#label> "geo_core (IGN)"@es .
+_:genid15 <http://www.w3.org/2000/01/rdf-schema#label> "geo_core (IGN)"@en .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid16 .
+_:genid16 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://edint.es/def/censo-locales> .
+_:genid16 <http://www.w3.org/2000/01/rdf-schema#label> "Establecimientos Comerciales (edintcom)"@es .
+_:genid16 <http://www.w3.org/2000/01/rdf-schema#label> "Commercial Establishments (edintcom)"@en .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid17 .
+_:genid17 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://edint.es/def/infraestructura> .
+_:genid17 <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure (edintinf)"@en .
+_:genid17 <http://www.w3.org/2000/01/rdf-schema#label> "Infraestructura (edintinf)"@es .
+<https://edint.es/def/promocion-comercial#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid18 .
+_:genid18 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://edint.es/def/zona-regulatoria> .
+_:genid18 <http://www.w3.org/2000/01/rdf-schema#label> "Zonas Regulatorias (edintzone)"@es .
+_:genid18 <http://www.w3.org/2000/01/rdf-schema#label> "Regulated Zones (edintzone)"@en .
 # 
 # 
 # #################################################################
@@ -25,6 +103,12 @@
 # 
 # http://purl.org/dc/elements/1.1/source
 <http://purl.org/dc/elements/1.1/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/contributor
 <http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -44,6 +128,15 @@
 # http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
@@ -53,8 +146,20 @@
 # http://purl.org/vocab/vann/preferredNamespaceUri
 <http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://schema.org/affiliation
+<http://schema.org/affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/codeRepository
+<http://schema.org/codeRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/creativeWorkStatus
+<http://schema.org/creativeWorkStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://schema.org/domainIncludes
 <http://schema.org/domainIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/funding
+<http://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://schema.org/rangeIncludes
 <http://schema.org/rangeIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -74,8 +179,32 @@
 # http://www.w3.org/2004/02/skos/core#note
 <http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://xmlns.com/foaf/0.1/homepage
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # https://w3id.org/mod#createdWith
 <https://w3id.org/mod#createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#jsonldSerialization
+<https://w3id.org/widoco/vocab#jsonldSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#ntSerialization
+<https://w3id.org/widoco/vocab#ntSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#rdfxmlSerialization
+<https://w3id.org/widoco/vocab#rdfxmlSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#turtleSerialization
+<https://w3id.org/widoco/vocab#turtleSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#vocabularyIRI
+<https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#vocabularyLabel
+<https://w3id.org/widoco/vocab#vocabularyLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
@@ -85,6 +214,9 @@
 # #
 # #################################################################
 # 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
 # http://www.w3.org/2001/XMLSchema#gYearMonth
 <http://www.w3.org/2001/XMLSchema#gYearMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
@@ -127,68 +259,6 @@
 <http://vocab.ciudadesabiertas.es/def/transporte/trafico#inicioTramo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/trafico> .
 <http://vocab.ciudadesabiertas.es/def/transporte/trafico#inicioTramo> <http://www.w3.org/2000/01/rdf-schema#label> "Inicio del Tramo"@es .
 <http://vocab.ciudadesabiertas.es/def/transporte/trafico#inicioTramo> <http://www.w3.org/2000/01/rdf-schema#label> "Section start"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialCampaignType
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialCampaignType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid1 .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid4 .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
-_:genid3 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial campaign, to a skos concept that is in the commercial campaing type taxonomy."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una campaña comercial, con un concepto skos que está en la taxonomía del tipo de campaña comercial."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#label> "has commercial campaign type"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#label> "tiene tipo de campaña comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialEventType
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialEventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialEventType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid5 .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
-_:genid7 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType> .
-_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialEventType> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial event, to a skos concept that is in the commercial event type taxonomy."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialEventType> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente un evento comercial, con un concepto skos que está en la taxonomía del tipo de evento comercial."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialEventType> <http://www.w3.org/2000/01/rdf-schema#label> "has commercial event campaign"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialEventType> <http://www.w3.org/2000/01/rdf-schema#label> "tiene tipo de evento comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#includesCommercialSpace
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#includesCommercialSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#includesCommercialSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entitiy, especially a Campaign, to the commercial space that has joined it."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#includesCommercialSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una campaña, con el espacio comercial que se ha adherido a ella."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#includesCommercialSpace> <http://www.w3.org/2000/01/rdf-schema#label> "includes commercial space"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#includesCommercialSpace> <http://www.w3.org/2000/01/rdf-schema#label> "incluye espacio comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#locatedInZone
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#locatedInZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates en entity, especially a commercial space, event or campaign, to the zone where it is."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, princiaplmente un espacio, campaña o evento comercial, con la zona en la que está."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#label> "located in zone"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#label> "situado en zona"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#locatedIn
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#locatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#locatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#locatedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#> .
 # 
 # http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#municipio
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#municipio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -258,6 +328,68 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # http://www.w3.org/2006/time#hasTime
 <http://www.w3.org/2006/time#hasTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
+# https://edint.es/def/censo-locales#locatedInZone
+<https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/censo-locales#> .
+# 
+# https://edint.es/def/promocion-comercial#hasCommercialCampaignType
+<https://edint.es/def/promocion-comercial#hasCommercialCampaignType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/promocion-comercial#hasCommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid19 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/CommercialCampaignType> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/promocion-comercial#hasCommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial campaign, to a skos concept that is in the commercial campaing type taxonomy."@en .
+<https://edint.es/def/promocion-comercial#hasCommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una campaña comercial, con un concepto skos que está en la taxonomía del tipo de campaña comercial."@es .
+<https://edint.es/def/promocion-comercial#hasCommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#label> "has commercial campaign type"@en .
+<https://edint.es/def/promocion-comercial#hasCommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#label> "tiene tipo de campaña comercial"@es .
+# 
+# https://edint.es/def/promocion-comercial#hasCommercialEventType
+<https://edint.es/def/promocion-comercial#hasCommercialEventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/promocion-comercial#hasCommercialEventType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid23 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/CommercialEventType> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/promocion-comercial#hasCommercialEventType> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial event, to a skos concept that is in the commercial event type taxonomy."@en .
+<https://edint.es/def/promocion-comercial#hasCommercialEventType> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente un evento comercial, con un concepto skos que está en la taxonomía del tipo de evento comercial."@es .
+<https://edint.es/def/promocion-comercial#hasCommercialEventType> <http://www.w3.org/2000/01/rdf-schema#label> "has commercial event campaign"@en .
+<https://edint.es/def/promocion-comercial#hasCommercialEventType> <http://www.w3.org/2000/01/rdf-schema#label> "tiene tipo de evento comercial"@es .
+# 
+# https://edint.es/def/promocion-comercial#includesCommercialSpace
+<https://edint.es/def/promocion-comercial#includesCommercialSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/promocion-comercial#includesCommercialSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entitiy, especially a Campaign, to the commercial space that has joined it."@en .
+<https://edint.es/def/promocion-comercial#includesCommercialSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una campaña, con el espacio comercial que se ha adherido a ella."@es .
+<https://edint.es/def/promocion-comercial#includesCommercialSpace> <http://www.w3.org/2000/01/rdf-schema#label> "includes commercial space"@en .
+<https://edint.es/def/promocion-comercial#includesCommercialSpace> <http://www.w3.org/2000/01/rdf-schema#label> "incluye espacio comercial"@es .
+# 
+# https://edint.es/def/promocion-comercial#locatedInZone
+<https://edint.es/def/promocion-comercial#locatedInZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/promocion-comercial#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates en entity, especially a commercial space, event or campaign, to the zone where it is."@en .
+<https://edint.es/def/promocion-comercial#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, princiaplmente un espacio, campaña o evento comercial, con la zona en la que está."@es .
+<https://edint.es/def/promocion-comercial#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#label> "located in zone"@en .
+<https://edint.es/def/promocion-comercial#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#label> "situado en zona"@es .
+# 
+# https://edint.es/def/zona-regulatoria#locatedIn
+<https://edint.es/def/zona-regulatoria#locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/zona-regulatoria#locatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/zona-regulatoria#RegulatedZone> .
+<https://edint.es/def/zona-regulatoria#locatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio> .
+<https://edint.es/def/zona-regulatoria#locatedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zona-regulatoria#> .
+# 
 # 
 # 
 # #################################################################
@@ -303,28 +435,6 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "fecha de inicio"@es .
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "start date"@en .
 # 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales/public
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales/public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales/public> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales/public> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica si una entidad del censo de locales comerciales es pública o no."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales/public> <http://www.w3.org/2000/01/rdf-schema#comment> "It points out whether an entity in the commerce census is public or not"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales/public> <http://www.w3.org/2000/01/rdf-schema#label> "public"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales/public> <http://www.w3.org/2000/01/rdf-schema#label> "público"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#budget
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#budget> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica la estimación del coste de un evento o similar."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#budget> <http://www.w3.org/2000/01/rdf-schema#comment> "It captures an estimate of expenditure for an event or something alike"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#budget> <http://www.w3.org/2000/01/rdf-schema#label> "budget"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#budget> <http://www.w3.org/2000/01/rdf-schema#label> "presupuesto"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#numberOfCommercialSpaces
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#numberOfCommercialSpaces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#numberOfCommercialSpaces> <http://www.w3.org/2000/01/rdf-schema#comment> "It captures the number of commercial spaces joind to a campaign o something alike."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#numberOfCommercialSpaces> <http://www.w3.org/2000/01/rdf-schema#comment> "indica la cantidad de espacios comerciales adheridos a una campaña o similar."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#numberOfCommercialSpaces> <http://www.w3.org/2000/01/rdf-schema#label> "number of commercial spaces"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#numberOfCommercialSpaces> <http://www.w3.org/2000/01/rdf-schema#label> "número de espacios comerciales"@es .
-# 
 # http://www.w3.org/2006/time#inXSDgYearMonth
 <http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYearMonth> .
@@ -340,7 +450,7 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 <https://datos.ign.es/def/geo_core#xETRS89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://datos.ign.es/def/geo_core#xETRS89> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/sf#Point> .
 <https://datos.ign.es/def/geo_core#xETRS89> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://datos.ign.es/def/geo_core#xETRS89> <http://purl.org/dc/elements/1.1/source> "Catálogo de Objetos Geográficos BTN100."@es .
+<https://datos.ign.es/def/geo_core#xETRS89> <http://purl.org/dc/terms/source> "Catálogo de Objetos Geográficos BTN100."@es .
 <https://datos.ign.es/def/geo_core#xETRS89> <http://www.w3.org/2000/01/rdf-schema#comment> "Coordenada X en metros (ETRS89)"@es .
 <https://datos.ign.es/def/geo_core#xETRS89> <http://www.w3.org/2000/01/rdf-schema#comment> "X-Coordinate in meters (ETRS89)"@en .
 <https://datos.ign.es/def/geo_core#xETRS89> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://datos.ign.es/def/geo_core#> .
@@ -350,11 +460,33 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 <https://datos.ign.es/def/geo_core#yETRS89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://datos.ign.es/def/geo_core#yETRS89> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/sf#Point> .
 <https://datos.ign.es/def/geo_core#yETRS89> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://datos.ign.es/def/geo_core#yETRS89> <http://purl.org/dc/elements/1.1/source> "Catálogo de Objetos Geográficos BTN100."@es .
+<https://datos.ign.es/def/geo_core#yETRS89> <http://purl.org/dc/terms/source> "Catálogo de Objetos Geográficos BTN100."@es .
 <https://datos.ign.es/def/geo_core#yETRS89> <http://www.w3.org/2000/01/rdf-schema#comment> "Coordenada Y en metros (ETRS89)"@es .
 <https://datos.ign.es/def/geo_core#yETRS89> <http://www.w3.org/2000/01/rdf-schema#comment> "Y-Coordinate in meters (ETRS89)"@en .
 <https://datos.ign.es/def/geo_core#yETRS89> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://datos.ign.es/def/geo_core#> .
 <https://datos.ign.es/def/geo_core#yETRS89> <http://www.w3.org/2000/01/rdf-schema#label> "yETRS89" .
+# 
+# https://edint.es/def/censo-locales#public
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica si una entidad del censo de locales comerciales es pública o no."@es .
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#comment> "It points out whether an entity in the commerce census is public or not"@en .
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#label> "public"@en .
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#label> "público"@es .
+# 
+# https://edint.es/def/promocion-comercial#budget
+<https://edint.es/def/promocion-comercial#budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/promocion-comercial#budget> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica la estimación del coste de un evento o similar."@es .
+<https://edint.es/def/promocion-comercial#budget> <http://www.w3.org/2000/01/rdf-schema#comment> "It captures an estimate of expenditure for an event or something alike"@en .
+<https://edint.es/def/promocion-comercial#budget> <http://www.w3.org/2000/01/rdf-schema#label> "budget"@en .
+<https://edint.es/def/promocion-comercial#budget> <http://www.w3.org/2000/01/rdf-schema#label> "presupuesto"@es .
+# 
+# https://edint.es/def/promocion-comercial#numberOfCommercialSpaces
+<https://edint.es/def/promocion-comercial#numberOfCommercialSpaces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/promocion-comercial#numberOfCommercialSpaces> <http://www.w3.org/2000/01/rdf-schema#comment> "It captures the number of commercial spaces joind to a campaign o something alike."@en .
+<https://edint.es/def/promocion-comercial#numberOfCommercialSpaces> <http://www.w3.org/2000/01/rdf-schema#comment> "indica la cantidad de espacios comerciales adheridos a una campaña o similar."@es .
+<https://edint.es/def/promocion-comercial#numberOfCommercialSpaces> <http://www.w3.org/2000/01/rdf-schema#label> "number of commercial spaces"@en .
+<https://edint.es/def/promocion-comercial#numberOfCommercialSpaces> <http://www.w3.org/2000/01/rdf-schema#label> "número de espacios comerciales"@es .
 # 
 # 
 # 
@@ -381,50 +513,6 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 <http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/trafico> .
 <http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo> <http://www.w3.org/2000/01/rdf-schema#label> "Section of Track"@en .
 <http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo> <http://www.w3.org/2000/01/rdf-schema#label> "Tramo"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#CommercialSpace
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#CommercialSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/CommercialCampaign
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/CommercialCampaign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/CommercialCampaign> <http://www.w3.org/2000/01/rdf-schema#label> "Campaña comercial"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/CommercialCampaign> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial campaign"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/CommercialEvent
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/CommercialEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/CommercialEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/CommercialEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial event"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/CommercialEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Evento comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#CommercialZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#CommercialZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#CommercialZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#IndustrialZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#IndustrialZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#IndustrialZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#IndustrialZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#LeisureZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#LeisureZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#LeisureZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#LeisureZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#StreetVendingZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#StreetVendingZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#StreetVendingZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#StreetVendingZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#> .
 # 
 # http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Autonomia
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Autonomia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -478,14 +566,14 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
-_:genid9 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R> .
-_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureClass> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
-_:genid10 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R.ST> .
-_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureClass> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R.ST> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://purl.org/dc/terms/issued> "2013-03-28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#comment> "Vía de comunicación construida para la circulación. \nEn su definición según el modelo de direcciones de la Administración General del Estado, Incluye calles, carreteras de todo tipo, caminos, vías de agua, pantalanes, etc. Asimismo, incluye la pseudovía., es decir todo aquello que complementa o sustituye a la vía.\nEn nuestro caso, este término se utiliza para hacer referencia a las vías urbanas.\n\nPor esta razón, se utiliza geonames:R.ST como valor principal de la propiedad geonames:featureCode, dejando de lado otras opciones como R.PRMN (promenade), R.TRL (trail). Quizás en el futuro haya que relajar un poco esta opción, sobre todo, por ejemplo, para ciudades con costa y paseo marítimo."@es .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero> .
@@ -496,11 +584,6 @@ _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#comment> "Una dirección postal en España. Se define como una especialización de las clases vcard:Address, schema:PostalAddress y locn:Address\nAdemás de las propiedades asociadas a estas clases, y definidas en su correspondiente vocabulario, también se pueden utilizar las definidas en los vocabularios de división administrativa española y en el callejero"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> <http://www.w3.org/2000/01/rdf-schema#label> "Dirección postal"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Feature> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#> .
 # 
 # http://www.geonames.org/ontology#Feature
 <http://www.geonames.org/ontology#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -530,6 +613,55 @@ _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2004/02/skos/core#> .
 # 
+# https://edint.es/def/infraestructura#InfrastructureElement
+<https://edint.es/def/infraestructura#InfrastructureElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/infraestructura#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Feature> .
+<https://edint.es/def/infraestructura#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/infraestructura#> .
+# 
+# https://edint.es/def/promocion-comercial#CommercialCampaign
+<https://edint.es/def/promocion-comercial#CommercialCampaign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/promocion-comercial#CommercialCampaign> <http://www.w3.org/2000/01/rdf-schema#label> "Campaña comercial"@es .
+<https://edint.es/def/promocion-comercial#CommercialCampaign> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial campaign"@en .
+# 
+# https://edint.es/def/promocion-comercial#CommercialEvent
+<https://edint.es/def/promocion-comercial#CommercialEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/promocion-comercial#CommercialEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<https://edint.es/def/promocion-comercial#CommercialEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial event"@en .
+<https://edint.es/def/promocion-comercial#CommercialEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Evento comercial"@es .
+# 
+# https://edint.es/def/promocion-comercial#CommercialSpace
+<https://edint.es/def/promocion-comercial#CommercialSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/promocion-comercial#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/infraestructura#InfrastructureElement> .
+<https://edint.es/def/promocion-comercial#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/censo-locales#> .
+# 
+# https://edint.es/def/zona-regulatoria#CommercialZone
+<https://edint.es/def/zona-regulatoria#CommercialZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zona-regulatoria#CommercialZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zona-regulatoria#EconomicInterestZone> .
+# 
+# https://edint.es/def/zona-regulatoria#EconomicInterestZone
+<https://edint.es/def/zona-regulatoria#EconomicInterestZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zona-regulatoria#EconomicInterestZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zona-regulatoria#RegulatedZone> .
+<https://edint.es/def/zona-regulatoria#EconomicInterestZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zona-regulatoria#> .
+# 
+# https://edint.es/def/zona-regulatoria#IndustrialZone
+<https://edint.es/def/zona-regulatoria#IndustrialZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zona-regulatoria#IndustrialZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zona-regulatoria#EconomicInterestZone> .
+<https://edint.es/def/zona-regulatoria#IndustrialZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zona-regulatoria#> .
+# 
+# https://edint.es/def/zona-regulatoria#LeisureZone
+<https://edint.es/def/zona-regulatoria#LeisureZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zona-regulatoria#LeisureZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zona-regulatoria#RegulatedZone> .
+<https://edint.es/def/zona-regulatoria#LeisureZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zona-regulatoria#> .
+# 
+# https://edint.es/def/zona-regulatoria#RegulatedZone
+<https://edint.es/def/zona-regulatoria#RegulatedZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zona-regulatoria#RegulatedZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zona-regulatoria#> .
+# 
+# https://edint.es/def/zona-regulatoria#StreetVendingZone
+<https://edint.es/def/zona-regulatoria#StreetVendingZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zona-regulatoria#StreetVendingZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zona-regulatoria#EconomicInterestZone> .
+<https://edint.es/def/zona-regulatoria#StreetVendingZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zona-regulatoria#> .
+# 
 # 
 # 
 # #################################################################
@@ -539,27 +671,38 @@ _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial campaign type"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de campaña comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial event type"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de evento comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE> <http://www.w3.org/2000/01/rdf-schema#label> "IAE"@es .
-# 
 # http://www.geonames.org/ontology#R
 <http://www.geonames.org/ontology#R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
 # http://www.geonames.org/ontology#R.ST
 <http://www.geonames.org/ontology#R.ST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://edint.es/kos/CommercialCampaignType
+<https://edint.es/kos/CommercialCampaignType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/CommercialCampaignType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/CommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial campaign type"@en .
+<https://edint.es/kos/CommercialCampaignType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de campaña comercial"@es .
+# 
+# https://edint.es/kos/CommercialEventType
+<https://edint.es/kos/CommercialEventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/CommercialEventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/CommercialEventType> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial event type"@en .
+<https://edint.es/kos/CommercialEventType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de evento comercial"@es .
+# 
+# https://edint.es/kos/IAE
+<https://edint.es/kos/IAE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/IAE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/IAE> <http://www.w3.org/2000/01/rdf-schema#label> "IAE"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://oeg.fi.upm.es/> <http://xmlns.com/foaf/0.1/name> "Ontology Engineering Group, UPM" .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
