@@ -18,7 +18,7 @@
      xmlns:esdir="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#"
      xmlns:esbici="http://vocab.linkeddata.es/datosabiertos/def/transporte/bicicleta-publica#"
      xmlns:s4bldg="http://w3id.org/def/saref4bldg#"
-     xmlns:schema="http://schema.org/"
+     xmlns:schema="https://schema.org/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:esequip="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento#"
      xmlns:edintcom="https://edint.es/def/censo-locales#"
