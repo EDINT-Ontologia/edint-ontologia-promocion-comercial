@@ -1,15 +1,176 @@
 [ {
   "@id" : "_:genid1",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Daniel Doña"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Territory (esadm)"
+  }, {
+    "@language" : "es",
+    "@value" : "Territorio (esadm)"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "GeoSPARQL"
+  }, {
+    "@language" : "en",
+    "@value" : "GeoSPARQL"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Tráfico (Ciudades Abiertas)"
+  }, {
+    "@language" : "en",
+    "@value" : "Traffic (Ciudades Abiertas)"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/transporte/trafico"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "OGC Simple Features"
+  }, {
+    "@language" : "en",
+    "@value" : "OGC Simple Features"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "http://www.opengis.net/ont/sf"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "OWL-Time"
+  }, {
+    "@language" : "en",
+    "@value" : "OWL-Time"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "http://www.w3.org/2006/time"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "geo_core (IGN)"
+  }, {
+    "@language" : "en",
+    "@value" : "geo_core (IGN)"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "https://datos.ign.es/def/geo_core"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Establecimientos Comerciales (edintcom)"
+  }, {
+    "@language" : "en",
+    "@value" : "Commercial Establishments (edintcom)"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "https://edint.es/def/censo-locales"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Infrastructure (edintinf)"
+  }, {
+    "@language" : "es",
+    "@value" : "Infraestructura (edintinf)"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "https://edint.es/def/infraestructura"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Zonas Regulatorias (edintzone)"
+  }, {
+    "@language" : "en",
+    "@value" : "Regulated Zones (edintzone)"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria"
+  } ]
+}, {
+  "@id" : "_:genid19",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "@id" : "_:genid3"
+      "@id" : "_:genid21"
     } ]
   } ]
 }, {
-  "@id" : "_:genid10",
+  "@id" : "_:genid2",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Edna Ruckhaus"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "https://edint.es/kos/CommercialCampaignType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "@id" : "_:genid25"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "https://edint.es/kos/CommercialEventType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.geonames.org/ontology#R"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geonames.org/ontology#featureClass"
+  } ]
+}, {
+  "@id" : "_:genid28",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://www.geonames.org/ontology#R.ST"
@@ -19,43 +180,83 @@
   } ]
 }, {
   "@id" : "_:genid3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType"
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Lucía Sánchez"
   } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Oscar Corcho"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
   } ]
 }, {
   "@id" : "_:genid5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "@id" : "_:genid7"
-    } ]
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Socorro Bernardos"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://xmlns.com/foaf/0.1/homepage" : [ {
+    "@id" : "https://www.femp.es/"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "FEMP"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@value" : "Federación Española de Municipios y Provincias"
   } ]
 }, {
   "@id" : "_:genid7",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType"
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "GeoNames"
+  }, {
+    "@language" : "en",
+    "@value" : "GeoNames"
   } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "http://www.geonames.org/ontology"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Postal Address (esdir)"
+  }, {
+    "@language" : "es",
+    "@value" : "Dirección Postal (esdir)"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal"
   } ]
 }, {
   "@id" : "_:genid9",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.geonames.org/ontology#R"
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Street catalogue (escjr)"
+  }, {
+    "@language" : "es",
+    "@value" : "Callejero (escjr)"
   } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geonames.org/ontology#featureClass"
+  "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero"
   } ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/contributor",
@@ -97,6 +298,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/source",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/title",
@@ -282,278 +492,6 @@
     "@id" : "http://www.opengis.net/ont/sf#Point"
   } ]
 }, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales/public",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Indica si una entidad del censo de locales comerciales es pública o no."
-  }, {
-    "@language" : "en",
-    "@value" : "It points out whether an entity in the commerce census is public or not"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "public"
-  }, {
-    "@language" : "es",
-    "@value" : "público"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/terms/created" : [ {
-    "@value" : "2026-04-15"
-  } ],
-  "http://purl.org/dc/terms/creator" : [ {
-    "@value" : "Daniel Doña"
-  }, {
-    "@value" : "Edna Ruckhaus"
-  }, {
-    "@value" : "Lucía Sánchez"
-  }, {
-    "@value" : "Oscar Corcho"
-  }, {
-    "@value" : "Socorro Bernardos"
-  } ],
-  "http://purl.org/dc/terms/description" : [ {
-    "@language" : "es",
-    "@value" : "El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos."
-  }, {
-    "@language" : "en",
-    "@value" : "The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to commecial promotion, such as campaigns and events."
-  } ],
-  "http://purl.org/dc/terms/license" : [ {
-    "@id" : "https://creativecommons.org/licenses/by/4.0/"
-  } ],
-  "http://purl.org/dc/terms/title" : [ {
-    "@language" : "es",
-    "@value" : "Ontología de Promoción Comercial"
-  }, {
-    "@language" : "en",
-    "@value" : "The Commercial Promotion Ontology"
-  } ],
-  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
-    "@value" : "edintpro"
-  } ],
-  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/0.1.0"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "0.1.0"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#CommercialSpace",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#budget",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Indica la estimación del coste de un evento o similar."
-  }, {
-    "@language" : "en",
-    "@value" : "It captures an estimate of expenditure for an event or something alike"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "budget"
-  }, {
-    "@language" : "es",
-    "@value" : "presupuesto"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialCampaignType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It relates an entity, especially a commercial campaign, to a skos concept that is in the commercial campaing type taxonomy."
-  }, {
-    "@language" : "es",
-    "@value" : "Relaciona una entidad, principalmente una campaña comercial, con un concepto skos que está en la taxonomía del tipo de campaña comercial."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "has commercial campaign type"
-  }, {
-    "@language" : "es",
-    "@value" : "tiene tipo de campaña comercial"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid1"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#hasCommercialEventType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It relates an entity, especially a commercial event, to a skos concept that is in the commercial event type taxonomy."
-  }, {
-    "@language" : "es",
-    "@value" : "Relaciona una entidad, principalmente un evento comercial, con un concepto skos que está en la taxonomía del tipo de evento comercial."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "has commercial event campaign"
-  }, {
-    "@language" : "es",
-    "@value" : "tiene tipo de evento comercial"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid5"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#includesCommercialSpace",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It relates an entitiy, especially a Campaign, to the commercial space that has joined it."
-  }, {
-    "@language" : "es",
-    "@value" : "Relaciona una entidad, principalmente una campaña, con el espacio comercial que se ha adherido a ella."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "includes commercial space"
-  }, {
-    "@language" : "es",
-    "@value" : "incluye espacio comercial"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#locatedInZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It relates en entity, especially a commercial space, event or campaign, to the zone where it is."
-  }, {
-    "@language" : "es",
-    "@value" : "Relaciona una entidad, princiaplmente un espacio, campaña o evento comercial, con la zona en la que está."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "located in zone"
-  }, {
-    "@language" : "es",
-    "@value" : "situado en zona"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#numberOfCommercialSpaces",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It captures the number of commercial spaces joind to a campaign o something alike."
-  }, {
-    "@language" : "es",
-    "@value" : "indica la cantidad de espacios comerciales adheridos a una campaña o similar."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "number of commercial spaces"
-  }, {
-    "@language" : "es",
-    "@value" : "número de espacios comerciales"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/CommercialCampaign",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "Campaña comercial"
-  }, {
-    "@language" : "en",
-    "@value" : "Commercial campaign"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion/CommercialEvent",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Commercial event"
-  }, {
-    "@language" : "es",
-    "@value" : "Evento comercial"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Event"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#CommercialZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#IndustrialZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#LeisureZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#StreetVendingZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#locatedIn",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio"
-  } ]
-}, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Autonomia",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -707,9 +645,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.geonames.org/ontology#Feature"
   }, {
-    "@id" : "_:genid9"
+    "@id" : "_:genid27"
   }, {
-    "@id" : "_:genid10"
+    "@id" : "_:genid28"
   } ]
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#contienePortal",
@@ -764,51 +702,6 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Dirección postal"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.opengis.net/ont/geosparql#Feature"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Commercial campaign type"
-  }, {
-    "@language" : "es",
-    "@value" : "Tipo de campaña comercial"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Commercial event type"
-  }, {
-    "@language" : "es",
-    "@value" : "Tipo de evento comercial"
-  } ]
-}, {
-  "@id" : "http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "IAE"
   } ]
 }, {
   "@id" : "http://www.geonames.org/ontology#Feature",
@@ -888,6 +781,9 @@
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "http://www.opengis.net/ont/sf#"
   } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
 }, {
   "@id" : "http://www.w3.org/2001/XMLSchema#gYearMonth",
   "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
@@ -1012,9 +908,15 @@
     "@value" : "Position of an instant, expressed using xsd:gYearMonth"
   } ]
 }, {
+  "@id" : "http://xmlns.com/foaf/0.1/homepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "https://datos.ign.es/def/geo_core#xETRS89",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/source" : [ {
+  "http://purl.org/dc/terms/source" : [ {
     "@language" : "es",
     "@value" : "Catálogo de Objetos Geográficos BTN100."
   } ],
@@ -1040,7 +942,7 @@
 }, {
   "@id" : "https://datos.ign.es/def/geo_core#yETRS89",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/source" : [ {
+  "http://purl.org/dc/terms/source" : [ {
     "@language" : "es",
     "@value" : "Catálogo de Objetos Geográficos BTN100."
   } ],
@@ -1064,6 +966,441 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
+  "@id" : "https://edint.es/def/censo-locales#locatedInZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://edint.es/def/censo-locales#"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/censo-locales#public",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Indica si una entidad del censo de locales comerciales es pública o no."
+  }, {
+    "@language" : "en",
+    "@value" : "It points out whether an entity in the commerce census is public or not"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "public"
+  }, {
+    "@language" : "es",
+    "@value" : "público"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/infraestructura#InfrastructureElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://edint.es/def/infraestructura#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#Feature"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/promocion-comercial#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/abstract" : [ {
+    "@language" : "en",
+    "@value" : "EDINT ontology providing a common vocabulary for representing the main entities and data related to commercial promotion, such as campaigns and events."
+  }, {
+    "@language" : "es",
+    "@value" : "Ontología EDINT que proporciona un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos."
+  } ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@language" : "en",
+    "@value" : "EDINT Commercial Promotion Ontology. EDINT. Revision: v0.2.1."
+  }, {
+    "@language" : "es",
+    "@value" : "Ontología EDINT de Promoción Comercial. EDINT. Revisión: v0.2.1."
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-04-15"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "es",
+    "@value" : "El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos."
+  }, {
+    "@language" : "en",
+    "@value" : "The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to commecial promotion, such as campaigns and events."
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-09-17"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-09-17"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "EDINT Commercial Promotion Ontology"
+  }, {
+    "@language" : "es",
+    "@value" : "Ontología EDINT de Promoción Comercial"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "edintpro"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@id" : "https://edint.es/def/promocion-comercial#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Commercial Promotion"
+  }, {
+    "@language" : "es",
+    "@value" : "Promoción Comercial"
+  } ],
+  "http://www.w3.org/2002/07/owl#priorVersion" : [ {
+    "@id" : "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/releases/tag/v0.2.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://edint.es/def/promocion-comercial/0.2.1"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "0.2.1"
+  } ],
+  "https://schema.org/codeRepository" : [ {
+    "@id" : "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial"
+  } ],
+  "https://schema.org/creativeWorkStatus" : [ {
+    "@language" : "en",
+    "@value" : "Ontology Specification"
+  } ],
+  "https://schema.org/funding" : [ {
+    "@value" : "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)"
+  } ],
+  "https://w3id.org/widoco/vocab#jsonldSerialization" : [ {
+    "@value" : "ontology.jsonld"
+  } ],
+  "https://w3id.org/widoco/vocab#ntSerialization" : [ {
+    "@value" : "ontology.nt"
+  } ],
+  "https://w3id.org/widoco/vocab#rdfxmlSerialization" : [ {
+    "@value" : "ontology.rdf"
+  } ],
+  "https://w3id.org/widoco/vocab#turtleSerialization" : [ {
+    "@value" : "ontology.ttl"
+  } ],
+  "https://w3id.org/widoco/vocab#vocabularyLabel" : [ {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  }, {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid14"
+  }, {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  }, {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/promocion-comercial#CommercialCampaign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Campaña comercial"
+  }, {
+    "@language" : "en",
+    "@value" : "Commercial campaign"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/promocion-comercial#CommercialEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Commercial event"
+  }, {
+    "@language" : "es",
+    "@value" : "Evento comercial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://schema.org/Event"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/promocion-comercial#CommercialSpace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://edint.es/def/censo-locales#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://edint.es/def/infraestructura#InfrastructureElement"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/promocion-comercial#budget",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Indica la estimación del coste de un evento o similar."
+  }, {
+    "@language" : "en",
+    "@value" : "It captures an estimate of expenditure for an event or something alike"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "budget"
+  }, {
+    "@language" : "es",
+    "@value" : "presupuesto"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/promocion-comercial#hasCommercialCampaignType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It relates an entity, especially a commercial campaign, to a skos concept that is in the commercial campaing type taxonomy."
+  }, {
+    "@language" : "es",
+    "@value" : "Relaciona una entidad, principalmente una campaña comercial, con un concepto skos que está en la taxonomía del tipo de campaña comercial."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has commercial campaign type"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene tipo de campaña comercial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/promocion-comercial#hasCommercialEventType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It relates an entity, especially a commercial event, to a skos concept that is in the commercial event type taxonomy."
+  }, {
+    "@language" : "es",
+    "@value" : "Relaciona una entidad, principalmente un evento comercial, con un concepto skos que está en la taxonomía del tipo de evento comercial."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has commercial event campaign"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene tipo de evento comercial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/promocion-comercial#includesCommercialSpace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It relates an entitiy, especially a Campaign, to the commercial space that has joined it."
+  }, {
+    "@language" : "es",
+    "@value" : "Relaciona una entidad, principalmente una campaña, con el espacio comercial que se ha adherido a ella."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "includes commercial space"
+  }, {
+    "@language" : "es",
+    "@value" : "incluye espacio comercial"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/promocion-comercial#locatedInZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It relates en entity, especially a commercial space, event or campaign, to the zone where it is."
+  }, {
+    "@language" : "es",
+    "@value" : "Relaciona una entidad, princiaplmente un espacio, campaña o evento comercial, con la zona en la que está."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "located in zone"
+  }, {
+    "@language" : "es",
+    "@value" : "situado en zona"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/promocion-comercial#numberOfCommercialSpaces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It captures the number of commercial spaces joind to a campaign o something alike."
+  }, {
+    "@language" : "es",
+    "@value" : "indica la cantidad de espacios comerciales adheridos a una campaña o similar."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of commercial spaces"
+  }, {
+    "@language" : "es",
+    "@value" : "número de espacios comerciales"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/zona-regulatoria#CommercialZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#EconomicInterestZone"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/zona-regulatoria#EconomicInterestZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#RegulatedZone"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/zona-regulatoria#IndustrialZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#EconomicInterestZone"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/zona-regulatoria#LeisureZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#RegulatedZone"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/zona-regulatoria#RegulatedZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/zona-regulatoria#StreetVendingZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#EconomicInterestZone"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/zona-regulatoria#locatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#RegulatedZone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio"
+  } ]
+}, {
+  "@id" : "https://edint.es/kos/CommercialCampaignType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Commercial campaign type"
+  }, {
+    "@language" : "es",
+    "@value" : "Tipo de campaña comercial"
+  } ]
+}, {
+  "@id" : "https://edint.es/kos/CommercialEventType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Commercial event type"
+  }, {
+    "@language" : "es",
+    "@value" : "Tipo de evento comercial"
+  } ]
+}, {
+  "@id" : "https://edint.es/kos/IAE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "IAE"
+  } ]
+}, {
+  "@id" : "https://oeg.fi.upm.es/",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Ontology Engineering Group, UPM"
+  } ]
+}, {
+  "@id" : "https://schema.org/affiliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/codeRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/creativeWorkStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/funding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "https://w3id.org/mod#createdWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#jsonldSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#ntSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#rdfxmlSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#turtleSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#vocabularyIRI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#vocabularyLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 } ]
