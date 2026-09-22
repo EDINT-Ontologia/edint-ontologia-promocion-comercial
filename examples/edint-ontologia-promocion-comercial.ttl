@@ -1,53 +1,44 @@
-@prefix comp: <http://semweb.mmlab.be/ns/rml-compression#> .
-@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix edintcom: <https://edint.es/def/censo-locales#> .
 @prefix edintkoaccCamtype: <https://edint.es/kos/CommercialCampaignType/> .
 @prefix edintkoacctype: <https://edint.es/kos/CommercialEventType/> .
 @prefix edintpro: <https://edint.es/def/promocion-comercial#> .
 @prefix edintzone: <https://edint.es/def/zona-regulatoria#> .
-@prefix ex: <https://example.org/id/> .
-@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix ex: <https://example.org/recurso/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix formats: <http://www.w3.org/ns/formats/> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
-@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
-@prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix schema: <http://schema.org/> .
-@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/campania-comercial/CAMP-2025-CH-001>
+ex:CAMP-2025-CH-001
   a edintpro:CommercialCampaign;
   dcterms:identifier "CAMP-2025-CH-001";
   rdfs:comment "Evento local de dinamización comercial en la zona gastronómica del Mercado de Chamberí, tomando como referencia la oferta real de restauración del mercado y sus horarios de servicio.";
   schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
   schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
-  edintcom:includes <http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/COM-CH-0001>;
-  edintpro:locatedInZone <http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001>;
+  edintcom:includes ex:COM-CH-0001;
+  edintpro:locatedInZone ex:ZONA-CHAMBERI-001;
   edintpro:hasCommercialCampaignType edintkoaccCamtype:Revitalization;
   rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/COM-CH-0001> a
+ex:COM-CH-0001 a
     edintpro:CommercialSpace;
-  edintpro:locatedInZone <http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001> .
+  edintpro:locatedInZone ex:ZONA-CHAMBERI-001 .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/evento-comercial/EV-2025-CH-001>
+ex:EV-2025-CH-001
   a edintpro:CommercialEvent;
   dcterms:identifier "EV-2025-CH-001";
   schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
   schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
   edintpro:hasCommercialEventType edintkoacctype:LocalEvent;
-  edintpro:locatedInZone <http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001>;
+  edintpro:locatedInZone ex:ZONA-CHAMBERI-001;
   rdfs:comment "Evento local de dinamización comercial en la zona gastronómica del Mercado de Chamberí, tomando como referencia la oferta real de restauración del mercado y sus horarios de servicio.";
   rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001> a edintzone:EconomicInterestZone;
+ex:ZONA-CHAMBERI-001 a edintzone:EconomicInterestZone;
   dcterms:identifier "ZONA-CHAMBERI-001";
-  geosparql:hasGeometry <http://vocab.linkeddata.es/datosabiertos/recurso/zona/geometry/ZONA-CHAMBERI-001>;
+  geosparql:hasGeometry ex:ZONA-CHAMBERI-001-geometry;
   rdfs:comment "Zona de interés económico asociada al Mercado de Chamberí, mercado tradicional de Madrid con origen en 1876 y reinaugurado en 1943, con accesos por Alonso Cano, García de Paredes y Viriato, y con presencia de restauración y cafetería-pastelería.";
   rdfs:label "Mercado de Chamberí" .

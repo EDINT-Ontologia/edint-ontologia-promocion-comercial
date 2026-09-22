@@ -17,57 +17,48 @@ Figure 1. Conceptual model of the ontology.
 </p>
 
 <pre><textarea style="resize:none" readonly id="code_cd71" name="code" rows="25" cols="100">
-@prefix comp: &lt;http://semweb.mmlab.be/ns/rml-compression#&gt; .
-@prefix d2rq: &lt;http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#&gt; .
 @prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
 @prefix edintcom: &lt;https://edint.es/def/censo-locales#&gt; .
 @prefix edintkoaccCamtype: &lt;https://edint.es/kos/CommercialCampaignType/&gt; .
 @prefix edintkoacctype: &lt;https://edint.es/kos/CommercialEventType/&gt; .
 @prefix edintpro: &lt;https://edint.es/def/promocion-comercial#&gt; .
 @prefix edintzone: &lt;https://edint.es/def/zona-regulatoria#&gt; .
-@prefix ex: &lt;https://example.org/id/&gt; .
-@prefix fnml: &lt;http://semweb.mmlab.be/ns/fnml#&gt; .
+@prefix ex: &lt;https://example.org/recurso/&gt; .
 @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
-@prefix formats: &lt;http://www.w3.org/ns/formats/&gt; .
 @prefix geosparql: &lt;http://www.opengis.net/ont/geosparql#&gt; .
-@prefix grel: &lt;http://users.ugent.be/~bjdmeest/function/grel.ttl#&gt; .
-@prefix ql: &lt;http://semweb.mmlab.be/ns/ql#&gt; .
 @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix rml: &lt;http://semweb.mmlab.be/ns/rml#&gt; .
-@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt; .
 @prefix schema: &lt;http://schema.org/&gt; .
-@prefix void: &lt;http://rdfs.org/ns/void#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/campania-comercial/CAMP-2025-CH-001&gt;
+ex:CAMP-2025-CH-001
   a edintcom:CommercialCampaign;
   dcterms:identifier "CAMP-2025-CH-001";
   rdfs:comment "Evento local de dinamización comercial en la zona gastronómica del Mercado de Chamberí, tomando como referencia la oferta real de restauración del mercado y sus horarios de servicio.";
   schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
   schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
-  edintcom:includes &lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/COM-CH-0001&gt;;
-  edintcom:locatedInZone &lt;http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001&gt;;
+  edintcom:includes ex:COM-CH-0001;
+  edintcom:locatedInZone ex:ZONA-CHAMBERI-001;
   edintpro:hasCommercialCampaignType edintkoaccCamtype:Revitalization;
   rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/COM-CH-0001&gt; a
+ex:COM-CH-0001 a
     edintcom:CommercialSpace;
-  edintcom:locatedInZone &lt;http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001&gt; .
+  edintcom:locatedInZone ex:ZONA-CHAMBERI-001 .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/evento-comercial/EV-2025-CH-001&gt;
+ex:EV-2025-CH-001
   a edintcom:CommercialEvent;
   dcterms:identifier "EV-2025-CH-001";
   schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
   schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
   edintcom:hasCommercialEventType edintkoacctype:LocalEvent;
-  edintcom:locatedInZone &lt;http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001&gt;;
+  edintcom:locatedInZone ex:ZONA-CHAMBERI-001;
   rdfs:comment "Evento local de dinamización comercial en la zona gastronómica del Mercado de Chamberí, tomando como referencia la oferta real de restauración del mercado y sus horarios de servicio.";
   rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001&gt; a edintzone:EconomicInterestZone;
+ex:ZONA-CHAMBERI-001 a edintzone:EconomicInterestZone;
   dcterms:identifier "ZONA-CHAMBERI-001";
-  geosparql:hasGeometry &lt;http://vocab.linkeddata.es/datosabiertos/recurso/zona/geometry/ZONA-CHAMBERI-001&gt;;
+  geosparql:hasGeometry ex:ZONA-CHAMBERI-001-geometry;
   rdfs:comment "Zona de interés económico asociada al Mercado de Chamberí, mercado tradicional de Madrid con origen en 1876 y reinaugurado en 1943, con accesos por Alonso Cano, García de Paredes y Viriato, y con presencia de restauración y cafetería-pastelería.";
   rdfs:label "Mercado de Chamberí" .
 
