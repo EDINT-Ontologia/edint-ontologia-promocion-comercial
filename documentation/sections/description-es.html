@@ -1,13 +1,12 @@
-<h2 id="desc" class="list">Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
+<h2 id="desc" class="list">Promoción Comercial: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
 
-<span class="markdown">
 
 <p>La Figura 1 muestra las principales entidades de la ontolog&iacute;a y las relaciones entre ellas. La ontolog&iacute;a representa, entre otras cosas, las <a href="#CommercialCampaign">campañas comerciales</a>, que representan un conjunto de operaciones y estrategias de marketing que persiguen objetivos en común como son los de dar visibilidad a determinados productos y servicios, y los <a href="#CommercialEvent">eventos comerciales</a>, que representan un acto planificado para interactuar con su público objetivo —clientes, socios o empleados— con el fin de promocionar productos o servicios. Las <a href="#CommercialCampaign">campañas comerciales</a> pueden <a href="#hasCommercialCampaignType">corresponder a un tipo de campaña</a>, <a href="#locatedInZone">abarcar una zona</a> y <a href="#edintzone:locatedIn">estar en un municipio</a>. Además, <a href="#numberOfCommercialSpaces">tienen un número de comercios adheridos</a>, aunque también se puede <a href="#includesCommercialSpace">indicar los espacios comerciales adheridos</a> concretos. Otros datos incluyen una <a href="#schema:startDate">fecha de inicio</a>, una <a href="#schema:endDate">fecha de fin</a> y un <a href="#budget">presupuesto</a>.</p>
 
 <p> Los <a href="#CommercialEvent">eventos comerciales</a> pueden corresponder a un tipo de evento y abarcar una zona y estar en un municipio. Otros datos incluyen una <a href="#schema:startDate">fecha de inicio</a> y una <a href="#schema:endDate">fecha de fin</a>, pero se pueden representar horarios más complejos utilizando <a href="#schema:Event">event</a>, de la que los <a href="#CommercialEvent">eventos comerciales</a> son sublase, y <a href="#schema:Schedule">schedule</a> de la <a href="http://schema.org/">ontología schema</a>.</p>
 <p>Para ambos, <a href="#CommercialCampaign">campañas comerciales</a> y <a href="#CommercialEvent">eventos comerciales</a>, se puede establecer  su <a href="#geosparql:asWKT">geolocalizaci&oacute;n</a> a trav&eacute;s de <a href="#gsp:hasGeometry">su geometr&iacute;a</a>.</p>
 
-<p>NOTA: Para establecer/obtener la <a href="edintzone:RegulatedZone">zona</a> en la que está un <a href="#CommercialSpace">espacio comercial</a> se puede usar la propiedad <a href="#locatedInZone">situado en zona</a>, pero también se puede recurrir a las propiedades relacionadas con localización de los <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElementructureElement">elementos de infraestructura de la <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#">Ontología de Infraestructura</a>.
+<p>NOTA: Para establecer/obtener la <a href="edintzone:RegulatedZone">zona</a> en la que está un <a href="#CommercialSpace">espacio comercial</a> se puede usar la propiedad <a href="#locatedInZone">situado en zona</a>, pero también se puede recurrir a las propiedades relacionadas con localización de los <a href="https://edint.es/def/infraestructura#InfrastructureElementructureElement">elementos de infraestructura de la <a href="https://edint.es/def/infraestructura#">Ontología de Infraestructura</a>.
 </p>
 
 <p><center><img src="images/diagrama.png" style="width:100%;"/><figcaption>
@@ -20,11 +19,11 @@ Figura 1. Modelo conceptual de la ontolog&iacute;a.</figcaption></center></p>
 @prefix comp: &lt;http://semweb.mmlab.be/ns/rml-compression#&gt; .
 @prefix d2rq: &lt;http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#&gt; .
 @prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
-@prefix edintcom: &lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#&gt; .
-@prefix edintkoaccCamtype: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialCampaignType/&gt; .
-@prefix edintkoacctype: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialEventType/&gt; .
-@prefix edintpro: &lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/promocion#&gt; .
-@prefix edintzone: &lt;http://vocab.linkeddata.es/datosabiertos/def/common/zone#&gt; .
+@prefix edintcom: &lt;https://edint.es/def/censo-locales#&gt; .
+@prefix edintkoaccCamtype: &lt;https://edint.es/kos/CommercialCampaignType/&gt; .
+@prefix edintkoacctype: &lt;https://edint.es/kos/CommercialEventType/&gt; .
+@prefix edintpro: &lt;https://edint.es/def/promocion-comercial#&gt; .
+@prefix edintzone: &lt;https://edint.es/def/zona-regulatoria#&gt; .
 @prefix ex: &lt;https://example.org/id/&gt; .
 @prefix fnml: &lt;http://semweb.mmlab.be/ns/fnml#&gt; .
 @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
@@ -78,4 +77,3 @@ Figura 1. Modelo conceptual de la ontolog&iacute;a.</figcaption></center></p>
         matchBrackets: true
     });
 </script>
-</span>
