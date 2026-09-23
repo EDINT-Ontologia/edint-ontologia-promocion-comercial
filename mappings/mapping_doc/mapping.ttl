@@ -34,19 +34,16 @@ map:rules_000 schema:contributor map:person_000 ;
     schema:dateCreated "21-04-2026";
     schema:description "Este conjunto de mappings RML transforma los datos de promoción comercial municipal a RDF, utilizando la ontología EDINT de Promoción Comercial. El objetivo es generar un grafo RDF interoperable para representar las entidades principales de la promoción comercial, como campañas y eventos comerciales, y su información asociada, orientada a usos habituales de las entidades locales".
 
-
-
 <eventoComercial_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
 		rml:source "promocion_comercial.csv";
 		rml:referenceFormulation ql:CSV
-
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/evento-comercial/{evento_id}";
+		rr:template "https://example.org/recurso/evento-comercial/{evento_id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -106,7 +103,7 @@ map:rules_000 schema:contributor map:person_000 ;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/zona/{zona_id}";
+			rr:template "https://example.org/recurso/zona/{zona_id}";
 			rr:termType rr:IRI
 		];
 	];
@@ -140,11 +137,10 @@ map:rules_000 schema:contributor map:person_000 ;
 		a rml:LogicalSource;
 		rml:source "promocion_comercial.csv";
 		rml:referenceFormulation ql:CSV
-
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/zona/{zona_id}";
+		rr:template "https://example.org/recurso/zona/{zona_id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -193,7 +189,7 @@ map:rules_000 schema:contributor map:person_000 ;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/zona/geometry/{zona_id}";
+			rr:template "https://example.org/recurso/zona/geometry/{zona_id}";
 			rr:termType rr:IRI
 		];
 	].
@@ -205,11 +201,10 @@ map:rules_000 schema:contributor map:person_000 ;
 		a rml:LogicalSource;
 		rml:source "promocion_comercial.csv";
 		rml:referenceFormulation ql:CSV
-
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/campania-comercial/{campania_id}";
+		rr:template "https://example.org/recurso/campania-comercial/{campania_id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -258,7 +253,7 @@ map:rules_000 schema:contributor map:person_000 ;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/zona/{zona_id}";
+			rr:template "https://example.org/recurso/zona/{zona_id}";
 			rr:termType rr:IRI
 		];
 	];
@@ -269,7 +264,7 @@ map:rules_000 schema:contributor map:person_000 ;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/{espacioComercial_id}";
+			rr:template "https://example.org/recurso/espacioComercial/{espacioComercial_id}";
 			rr:termType rr:IRI
 		];
 	];
@@ -314,11 +309,10 @@ map:rules_000 schema:contributor map:person_000 ;
 		a rml:LogicalSource;
 		rml:source "promocion_comercial.csv";
 		rml:referenceFormulation ql:CSV
-
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/{espacioComercial_id}";
+		rr:template "https://example.org/recurso/espacioComercial/{espacioComercial_id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -337,7 +331,7 @@ map:rules_000 schema:contributor map:person_000 ;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/zona/{zona_id}";
+			rr:template "https://example.org/recurso/zona/{zona_id}";
 			rr:termType rr:IRI
 		];
 	].
