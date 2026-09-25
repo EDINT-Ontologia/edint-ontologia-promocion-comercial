@@ -1,6 +1,6 @@
 @prefix ex: <https://example.org/id/>.
 @prefix edintpro: <https://edint.es/def/promocion-comercial#>.
-@prefix edintcom: <https://edint.es/def/censo-locales#>.
+
 @prefix edintzone: <https://edint.es/def/zona-regulatoria#>.
 @prefix schema: <http://schema.org/>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
@@ -42,7 +42,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:constant edintcom:CommercialEvent;
+			rr:constant edintpro:CommercialEvent;
 		];
 	];
 	rr:predicateObjectMap [
@@ -78,7 +78,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant edintcom:hasCommercialEventType;
+			rr:constant edintpro:hasCommercialEventType;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -89,7 +89,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant edintcom:locatedInZone;
+			rr:constant edintpro:locatedInZone;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -205,7 +205,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:constant edintcom:CommercialCampaign;
+			rr:constant edintpro:CommercialCampaign;
 		];
 	];
 	rr:predicateObjectMap [
@@ -241,7 +241,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant edintcom:locatedInZone;
+			rr:constant edintpro:locatedInZone;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -252,7 +252,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant edintcom:includes;
+			rr:constant edintpro:includes;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -314,13 +314,13 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:constant edintcom:CommercialSpace;
+			rr:constant edintpro:CommercialSpace;
 		];
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant edintcom:locatedInZone;
+			rr:constant edintpro:locatedInZone;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
