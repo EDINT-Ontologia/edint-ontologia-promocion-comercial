@@ -50,7 +50,7 @@
         </dcterms:creator>
         <dcterms:description xml:lang="es">El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos.</dcterms:description>
         <dcterms:description xml:lang="en">The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to commecial promotion, such as campaigns and events.</dcterms:description>
-        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <dcterms:title xml:lang="es">Ontología EDINT de Promoción Comercial</dcterms:title>
         <dcterms:title xml:lang="en">EDINT Commercial Promotion Ontology</dcterms:title>
         <rdfs:label xml:lang="es">Promoción Comercial</rdfs:label>
