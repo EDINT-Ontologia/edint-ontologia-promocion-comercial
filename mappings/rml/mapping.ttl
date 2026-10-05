@@ -260,7 +260,7 @@ map:rules_000 schema:contributor map:person_000 ;
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant edintpro:includes;
+			rr:constant edintpro:includesCommercialSpace;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;

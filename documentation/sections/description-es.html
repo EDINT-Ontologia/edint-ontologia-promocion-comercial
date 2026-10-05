@@ -31,27 +31,27 @@ Figura 1. Modelo conceptual de la ontolog&iacute;a.</figcaption></center></p>
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
 ex:CAMP-2025-CH-001
-  a edintcom:CommercialCampaign;
+  a edintpro:CommercialCampaign;
   dcterms:identifier "CAMP-2025-CH-001";
   rdfs:comment "Evento local de dinamización comercial en la zona gastronómica del Mercado de Chamberí, tomando como referencia la oferta real de restauración del mercado y sus horarios de servicio.";
   schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
   schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
-  edintcom:includes ex:COM-CH-0001;
-  edintcom:locatedInZone ex:ZONA-CHAMBERI-001;
+  edintpro:includesCommercialSpace ex:COM-CH-0001;
+  edintpro:locatedInZone ex:ZONA-CHAMBERI-001;
   edintpro:hasCommercialCampaignType edintkoaccCamtype:Revitalization;
   rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
 
 ex:COM-CH-0001 a
     edintcom:CommercialSpace;
-  edintcom:locatedInZone ex:ZONA-CHAMBERI-001 .
+  edintpro:locatedInZone ex:ZONA-CHAMBERI-001 .
 
 ex:EV-2025-CH-001
-  a edintcom:CommercialEvent;
+  a edintpro:CommercialEvent;
   dcterms:identifier "EV-2025-CH-001";
   schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
   schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
-  edintcom:hasCommercialEventType edintkoacctype:LocalEvent;
-  edintcom:locatedInZone ex:ZONA-CHAMBERI-001;
+  edintpro:hasCommercialEventType edintkoacctype:LocalEvent;
+  edintpro:locatedInZone ex:ZONA-CHAMBERI-001;
   rdfs:comment "Evento local de dinamización comercial en la zona gastronómica del Mercado de Chamberí, tomando como referencia la oferta real de restauración del mercado y sus horarios de servicio.";
   rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
 
