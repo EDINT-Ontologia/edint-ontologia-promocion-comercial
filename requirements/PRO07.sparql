@@ -23,7 +23,7 @@ ORDER BY DESC(?numActivities)
 
 
 
-# Para diferenciar entre eventos y campañasPREFIX edintpro: <https://edint.es/def/promocion-comercial#>
+# Para diferenciar entre eventos y campañas
 
 PREFIX edintpro: <https://edint.es/def/promocion-comercial#>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>

@@ -1,6 +1,6 @@
 @prefix ex: <https://example.org/id/>.
 @prefix edintpro: <https://edint.es/def/promocion-comercial#>.
-@prefix edintcom: <https://edint.es/def/censo-locales#>.
+
 @prefix edintzone: <https://edint.es/def/zona-regulatoria#>.
 @prefix schema: <http://schema.org/>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
@@ -321,7 +321,7 @@ map:rules_000 schema:contributor map:person_000 ;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:constant edintcom:CommercialSpace;
+			rr:constant edintpro:CommercialSpace;
 		];
 	];
 	rr:predicateObjectMap [
