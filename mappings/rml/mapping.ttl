@@ -52,7 +52,7 @@ map:rules_000 schema:contributor map:person_000 ;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:constant edintcom:CommercialEvent;
+			rr:constant edintpro:CommercialEvent;
 		];
 	];
 	rr:predicateObjectMap [
@@ -88,7 +88,7 @@ map:rules_000 schema:contributor map:person_000 ;
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant edintcom:hasCommercialEventType;
+			rr:constant edintpro:hasCommercialEventType;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -99,7 +99,7 @@ map:rules_000 schema:contributor map:person_000 ;
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant edintcom:locatedInZone;
+			rr:constant edintpro:locatedInZone;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -213,7 +213,7 @@ map:rules_000 schema:contributor map:person_000 ;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:constant edintcom:CommercialCampaign;
+			rr:constant edintpro:CommercialCampaign;
 		];
 	];
 	rr:predicateObjectMap [
@@ -249,7 +249,7 @@ map:rules_000 schema:contributor map:person_000 ;
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant edintcom:locatedInZone;
+			rr:constant edintpro:locatedInZone;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -260,7 +260,7 @@ map:rules_000 schema:contributor map:person_000 ;
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant edintcom:includes;
+			rr:constant edintpro:includesCommercialSpace;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -327,7 +327,7 @@ map:rules_000 schema:contributor map:person_000 ;
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant edintcom:locatedInZone;
+			rr:constant edintpro:locatedInZone;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;

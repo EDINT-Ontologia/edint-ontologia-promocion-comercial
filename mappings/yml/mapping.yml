@@ -20,12 +20,12 @@ mappings:
       - promociones
     s: https://example.org/recurso/evento-comercial/$(evento_id)
     po:
-      - [a, edintcom:CommercialEvent ]
+      - [a, edintpro:CommercialEvent ]
       - [dcterms:identifier, $(evento_id) ]
       - [rdfs:label, $(nombre) ]
       - [rdfs:comment, $(descripcion) ]
-      - [edintcom:hasCommercialEventType, "https://edint.es/kos/CommercialEventType/$(tipo_event)~iri" ]
-      - [edintcom:locatedInZone, "https://example.org/recurso/zona/$(zona_id)~iri"]
+      - [edintpro:hasCommercialEventType, "https://edint.es/kos/CommercialEventType/$(tipo_event)~iri" ]
+      - [edintpro:locatedInZone, "https://example.org/recurso/zona/$(zona_id)~iri"]
       - [schema:startDate, $(fecha_inicio), xsd:dateTime ]
       - [schema:endDate, $(fecha_fin), xsd:dateTime ]
   zona:
@@ -44,12 +44,12 @@ mappings:
       - promociones
     s: https://example.org/recurso/campania-comercial/$(campania_id)
     po:
-      - [a, edintcom:CommercialCampaign]
+      - [a, edintpro:CommercialCampaign]
       - [dcterms:identifier, $(campania_id)]
       - [rdfs:label, $(nombre)]
       - [rdfs:comment, $(descripcion)]
-      - [edintcom:locatedInZone, "https://example.org/recurso/zona/$(zona_id)~iri"]
-      - [edintcom:includes, "https://example.org/recurso/espacioComercial/$(espacioComercial_id)~iri"]
+      - [edintpro:locatedInZone, "https://example.org/recurso/zona/$(zona_id)~iri"]
+      - [edintpro:includesCommercialSpace, "https://example.org/recurso/espacioComercial/$(espacioComercial_id)~iri"]
       - [schema:startDate, $(fecha_inicio), xsd:dateTime]
       - [schema:endDate, $(fecha_fin), xsd:dateTime]
       - [edintpro:hasCommercialCampaignType, "https://edint.es/kos/CommercialCampaignType/$(tipo_campania)~iri"]
@@ -60,4 +60,4 @@ mappings:
     s: https://example.org/recurso/espacioComercial/$(espacioComercial_id)
     po:
       - [a, edintcom:CommercialSpace]
-      - [edintcom:locatedInZone, "https://example.org/recurso/zona/$(zona_id)~iri"]
+      - [edintpro:locatedInZone, "https://example.org/recurso/zona/$(zona_id)~iri"]
