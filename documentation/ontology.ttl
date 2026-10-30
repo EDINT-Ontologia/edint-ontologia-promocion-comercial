@@ -21,7 +21,7 @@
                                              <http://purl.org/dc/terms/description> "El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos."@es ,
                                                                                     "The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to commecial promotion, such as campaigns and events."@en ;
                                              <http://purl.org/dc/terms/issued> "2026-09-17"^^xsd:date ;
-                                             <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                             <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> ;
                                              <http://purl.org/dc/terms/modified> "2026-09-17"^^xsd:date ;
                                              <http://purl.org/dc/terms/publisher> _:genid6 ;
                                              <http://purl.org/dc/terms/title> "EDINT Commercial Promotion Ontology"@en ,
