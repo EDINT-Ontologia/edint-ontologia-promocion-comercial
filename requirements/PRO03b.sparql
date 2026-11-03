@@ -1,0 +1,19 @@
+# PRO03b: Variante de PRO03
+# Alternativa contando los comercios que incluye cada campaña
+
+
+PREFIX edintpro: <https://edint.es/def/promocion-comercial#>
+PREFIX dcterms:  <http://purl.org/dc/terms/>
+
+SELECT ?campaign ?campaignId (
+      COALESCE(COUNT(DISTINCT ?commercialSpace), 0) AS ?numCommercialSpaces)  # Para considerar campañas sin comercios adheridos
+WHERE {
+  ?campaign a edintpro:CommercialCampaign ;
+            dcterms:identifier ?campaignId .
+
+  OPTIONAL {
+    ?campaign edintpro:includesCommercialSpace ?commercialSpace .
+  }
+}
+GROUP BY ?campaign ?campaignId
+ORDER BY DESC(?numCommercialSpaces)

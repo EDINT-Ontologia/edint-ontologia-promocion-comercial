@@ -70,7 +70,7 @@
         <dcterms:description xml:lang="es">El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos.</dcterms:description>
         <dcterms:description xml:lang="en">The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to commecial promotion, such as campaigns and events.</dcterms:description>
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</dcterms:issued>
-        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</dcterms:modified>
         <dcterms:publisher>
             <rdf:Description>
@@ -636,6 +636,26 @@
         <rdfs:label xml:lang="en">has commercial campaign type</rdfs:label>
         <rdfs:label xml:lang="es">tiene tipo de campaña comercial</rdfs:label>
     </owl:ObjectProperty>
+
+    <!-- https://edint.es/def/promocion-comercial#hasCommercialEventType -->
+    <owl:ObjectProperty rdf:about="https://edint.es/def/promocion-comercial#hasCommercialEventType">
+        <rdfs:domain rdf:resource="https://edint.es/def/promocion-comercial#CommercialEvent"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/CommercialEventType"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">It relates an entity, especially a commercial event, to a skos concept that is in the commercial event type taxonomy.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Relaciona una entidad, principalmente un evento comercial, con un concepto skos que está en la taxonomía del tipo de evento comercial.</rdfs:comment>
+        <rdfs:label xml:lang="en">has commercial event type</rdfs:label>
+        <rdfs:label xml:lang="es">tiene tipo de evento comercial</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -1115,6 +1135,8 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     <owl:Class rdf:about="https://edint.es/def/promocion-comercial#CommercialSpace">
         <rdfs:subClassOf rdf:resource="https://edint.es/def/infraestructura#InfrastructureElement"/>
         <rdfs:isDefinedBy rdf:resource="https://edint.es/def/censo-locales#"/>
+        <rdfs:label xml:lang="en">Commercial space</rdfs:label>
+        <rdfs:label xml:lang="es">Espacio comercial</rdfs:label>
     </owl:Class>
     
 
