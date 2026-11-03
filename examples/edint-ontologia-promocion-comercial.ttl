@@ -7,6 +7,7 @@
 @prefix ex: <https://example.org/recurso/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
@@ -19,6 +20,7 @@ ex:CAMP-2025-CH-001
   schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
   schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
   edintpro:includesCommercialSpace ex:COM-CH-0001;
+  edintpro:numberOfCommercialSpaces 1;
   edintpro:locatedInZone ex:ZONA-CHAMBERI-001;
   edintpro:hasCommercialCampaignType edintkoaccCamtype:Revitalization;
   rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
@@ -39,6 +41,10 @@ ex:EV-2025-CH-001
 
 ex:ZONA-CHAMBERI-001 a edintzone:EconomicInterestZone;
   dcterms:identifier "ZONA-CHAMBERI-001";
+  esadm:municipio ex:MADRID;
   geosparql:hasGeometry ex:ZONA-CHAMBERI-001-geometry;
   rdfs:comment "Zona de interés económico asociada al Mercado de Chamberí, mercado tradicional de Madrid con origen en 1876 y reinaugurado en 1943, con accesos por Alonso Cano, García de Paredes y Viriato, y con presencia de restauración y cafetería-pastelería.";
   rdfs:label "Mercado de Chamberí" .
+
+ex:MADRID a esadm:Municipio;
+  rdfs:label "Ayuntamiento de Madrid"@es .

@@ -1,28 +1,4 @@
-
-# PRO06: ¿Qué zonas concentran mayor número de eventos o campañas?
-
-PREFIX edintpro: <https://edint.es/def/promocion-comercial#>
-PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
-
-SELECT ?zone ?zoneLabel (COUNT(?activity) AS ?numActivities)
-WHERE {
-  ?activity edintpro:locatedInZone ?zone .
-  
-  FILTER (
-    EXISTS { ?activity a edintpro:CommercialEvent } ||
-    EXISTS { ?activity a edintpro:CommercialCampaign }
-  )
-
-  OPTIONAL {
-    ?zone rdfs:label ?zoneLabel .
-    FILTER (lang(?zoneLabel) = "es")
-  }
-}
-GROUP BY ?zone ?zoneLabel
-ORDER BY DESC(?numActivities)
-
-
-
+# PRO06b: Variante de PRO06 diferenciando eventos y campañas
 # Para diferenciar entre eventos y campañas
 
 PREFIX edintpro: <https://edint.es/def/promocion-comercial#>
