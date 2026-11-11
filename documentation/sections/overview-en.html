@@ -27,15 +27,7 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#CommercialSpace"
-         title="https://edint.es/def/promocion-comercial#CommercialSpace">
-         <span>Commercial Space</span>
-      </a>
-   </li>
-   <li>
-      <a href="#https://edint.es/def/zona-regulatoria#CommercialZone"
-         title="https://edint.es/def/zona-regulatoria#CommercialZone">
-         <span>Commercial Zone</span>
-      </a>
+         title="https://edint.es/def/promocion-comercial#CommercialSpace">Commercial space</a>
    </li>
    <li>
       <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">
@@ -57,15 +49,12 @@ This ontology has the following classes and properties.</span>
          title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito">Distrito</a>
    </li>
    <li>
-      <a href="#https://edint.es/def/zona-regulatoria#EconomicInterestZone"
-         title="https://edint.es/def/zona-regulatoria#EconomicInterestZone">
-         <span>Economic Interest Zone</span>
-      </a>
-   </li>
-   <li>
       <a href="#http://schema.org/Event" title="http://schema.org/Event">
          <span>Event</span>
       </a>
+   </li>
+   <li>
+      <a href="#https://edint.es/def/agenda#CityEvent" title="https://edint.es/def/agenda#CityEvent">Evento</a>
    </li>
    <li>
       <a href="#http://www.opengis.net/ont/geosparql#Feature" title="http://www.opengis.net/ont/geosparql#Feature">Feature</a>
@@ -74,21 +63,9 @@ This ontology has the following classes and properties.</span>
       <a href="#http://www.opengis.net/ont/geosparql#Geometry" title="http://www.opengis.net/ont/geosparql#Geometry">Geometry</a>
    </li>
    <li>
-      <a href="#https://edint.es/def/zona-regulatoria#IndustrialZone"
-         title="https://edint.es/def/zona-regulatoria#IndustrialZone">
-         <span>Industrial Zone</span>
-      </a>
-   </li>
-   <li>
       <a href="#https://edint.es/def/infraestructura#InfrastructureElement"
          title="https://edint.es/def/infraestructura#InfrastructureElement">
          <span>Infrastructure Element</span>
-      </a>
-   </li>
-   <li>
-      <a href="#https://edint.es/def/zona-regulatoria#LeisureZone"
-         title="https://edint.es/def/zona-regulatoria#LeisureZone">
-         <span>Leisure Zone</span>
       </a>
    </li>
    <li>
@@ -124,12 +101,6 @@ This ontology has the following classes and properties.</span>
          title="http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo">Section of Track</a>
    </li>
    <li>
-      <a href="#https://edint.es/def/zona-regulatoria#StreetVendingZone"
-         title="https://edint.es/def/zona-regulatoria#StreetVendingZone">
-         <span>Street Vending Zone</span>
-      </a>
-   </li>
-   <li>
       <a href="#http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via"
          title="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via">Vía</a>
    </li>
@@ -163,13 +134,17 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#hasCommercialEventType"
-         title="https://edint.es/def/promocion-comercial#hasCommercialEventType">has commercial event campaign</a>
+         title="https://edint.es/def/promocion-comercial#hasCommercialEventType">has commercial event type</a>
    </li>
    <li>
       <a href="#http://www.w3.org/2006/time#hasEnd" title="http://www.w3.org/2006/time#hasEnd">has end</a>
    </li>
    <li>
       <a href="#http://www.opengis.net/ont/geosparql#hasGeometry" title="http://www.opengis.net/ont/geosparql#hasGeometry">has geometry</a>
+   </li>
+   <li>
+      <a href="#https://edint.es/def/zona-regulatoria#hasRegulatedZoneType"
+         title="https://edint.es/def/zona-regulatoria#hasRegulatedZoneType">has regulated zone type</a>
    </li>
    <li>
       <a href="#http://www.w3.org/2004/02/skos/core#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">
@@ -186,9 +161,7 @@ This ontology has the following classes and properties.</span>
       </a>
    </li>
    <li>
-      <a href="#https://edint.es/def/censo-locales#locatedInZone" title="https://edint.es/def/censo-locales#locatedInZone">
-         <span>located In Zone</span>
-      </a>
+      <a href="#https://edint.es/def/censo-locales#locatedInZone" title="https://edint.es/def/censo-locales#locatedInZone">located in zone</a>
    </li>
    <li>
       <a href="#locatedInZone"
@@ -205,6 +178,9 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#http://vocab.ciudadesabiertas.es/def/transporte/trafico#inicioTramo"
          title="http://vocab.ciudadesabiertas.es/def/transporte/trafico#inicioTramo">Section start</a>
+   </li>
+   <li>
+      <a href="#https://edint.es/def/agenda#eventType" title="https://edint.es/def/agenda#eventType">type of event</a>
    </li>
 </ul><h4>Data Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -250,6 +226,16 @@ This ontology has the following classes and properties.</span>
       <a href="#https://edint.es/kos/CommercialEventType" title="https://edint.es/kos/CommercialEventType">Commercial event type</a>
    </li>
    <li>
+      <a href="#https://edint.es/kos/EventType" title="https://edint.es/kos/EventType">
+         <span>Event Type</span>
+      </a>
+   </li>
+   <li>
       <a href="#https://edint.es/kos/IAE" title="https://edint.es/kos/IAE">IAE</a>
+   </li>
+   <li>
+      <a href="#https://edint.es/kos/RegulatedZoneType" title="https://edint.es/kos/RegulatedZoneType">
+         <span>Regulated Zone Type</span>
+      </a>
    </li>
 </ul>
