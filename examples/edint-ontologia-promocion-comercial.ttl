@@ -13,21 +13,27 @@
 @prefix schema: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:CAMP-2025-CH-001
+ex:CAMP-2026-USERA-001
   a edintpro:CommercialCampaign;
-  dcterms:identifier "CAMP-2025-CH-001";
-  rdfs:comment "Evento local de dinamización comercial en la zona gastronómica del Mercado de Chamberí, tomando como referencia la oferta real de restauración del mercado y sus horarios de servicio.";
-  schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
-  schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
-  edintpro:includesCommercialSpace ex:COM-CH-0001;
-  edintpro:numberOfCommercialSpaces 1;
-  edintpro:locatedInZone ex:ZONA-CHAMBERI-001;
+  dcterms:identifier "CAMP-2026-USERA-001";
+  rdfs:comment "Evento para revitalizar los mercados municipales y las tiendas de barrio tradicionales";
+  schema:endDate "2026-10-08T16:30:00"^^xsd:dateTime;
+  schema:startDate "2026-11-06T12:30:00"^^xsd:dateTime;
+  edintpro:includesCommercialSpace ex:COM-USERA-0001;
+  edintpro:includesCommercialSpace ex:COM-USERA-0002;
+  ...
+  edintpro:numberOfCommercialSpaces 30;
+  edintpro:locatedInZone ex:ZONA-USERA-001;
   edintpro:hasCommercialCampaignType edintkoaccCamtype:Revitalization;
-  rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
+  rdfs:label "Usera Próxima" .
 
 ex:COM-CH-0001 a
     edintcom:CommercialSpace;
   edintpro:locatedInZone ex:ZONA-CHAMBERI-001 .
+
+  ex:COM-USERA-0001 a
+    edintcom:CommercialSpace;
+  edintpro:locatedInZone ex:ZONA-USERA-001 .
 
 ex:EV-2025-CH-001
   a edintpro:CommercialEvent;
@@ -45,6 +51,13 @@ ex:ZONA-CHAMBERI-001 a edintzone:EconomicInterestZone;
   geosparql:hasGeometry ex:ZONA-CHAMBERI-001-geometry;
   rdfs:comment "Zona de interés económico asociada al Mercado de Chamberí, mercado tradicional de Madrid con origen en 1876 y reinaugurado en 1943, con accesos por Alonso Cano, García de Paredes y Viriato, y con presencia de restauración y cafetería-pastelería.";
   rdfs:label "Mercado de Chamberí" .
+
+ex:ZONA-USERA-001 a edintzone:EconomicInterestZone;
+  dcterms:identifier "ZONA-USERA-001";
+  esadm:municipio ex:MADRID;
+  geosparql:hasGeometry ex:ZONA-USERA-001-geometry;
+  rdfs:comment "Zona Calle Marcelo Usera que es la columna vertebral del comercio en el distrito. Concentra gran variedad de tiendas de toda la vida mezcladas con negocios de la comunidad china, restaurantes, panaderías asiáticas y servicios";
+  rdfs:label "Calle de Marcelo Usera" .
 
 ex:MADRID a esadm:Municipio;
   rdfs:label "Ayuntamiento de Madrid"@es .
