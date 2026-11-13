@@ -15,7 +15,7 @@
      xmlns:vocab="https://w3id.org/widoco/vocab#"
      xmlns:schema="https://schema.org/"
      xmlns:schema1="http://schema.org/">
-    <owl:Ontology rdf:about="https://edint.es/def/promocion-comercial#">
+    <owl:Ontology rdf:about="https://edint.es/def/promocion-comercial">
         <owl:versionIRI rdf:resource="https://edint.es/def/promocion-comercial/0.2.1"/>
         <terms:abstract xml:lang="en">EDINT ontology providing a common vocabulary for representing the main entities and data related to commercial promotion, such as campaigns and events.</terms:abstract>
         <terms:abstract xml:lang="es">Ontología EDINT que proporciona un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos.</terms:abstract>
@@ -30,13 +30,13 @@
         <terms:description xml:lang="es">El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos.</terms:description>
         <terms:description xml:lang="en">The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to commecial promotion, such as campaigns and events.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</terms:issued>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</terms:modified>
         <terms:publisher rdf:nodeID="genid6"/>
         <terms:title xml:lang="en">EDINT Commercial Promotion Ontology</terms:title>
         <terms:title xml:lang="es">Ontología EDINT de Promoción Comercial</terms:title>
         <vann:preferredNamespacePrefix>edintpro</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/promocion-comercial#"/>
+        <vann:preferredNamespaceUri>https://edint.es/def/promocion-comercial#</vann:preferredNamespaceUri>
         <rdfs:label xml:lang="en">Commercial Promotion</rdfs:label>
         <rdfs:label xml:lang="es">Promoción Comercial</rdfs:label>
         <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/releases/tag/v0.2.0"/>
@@ -62,11 +62,11 @@
         <vocab:vocabularyLabel rdf:nodeID="genid18"/>
     </owl:Ontology>
     <rdf:Description rdf:nodeID="genid1">
-        <foaf:name>Daniel Doña</foaf:name>
+        <foaf:name>Socorro Bernardos</foaf:name>
         <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid2">
-        <foaf:name>Edna Ruckhaus</foaf:name>
+        <foaf:name>Oscar Corcho</foaf:name>
         <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid3">
@@ -74,11 +74,11 @@
         <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid4">
-        <foaf:name>Oscar Corcho</foaf:name>
+        <foaf:name>Daniel Doña</foaf:name>
         <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid5">
-        <foaf:name>Socorro Bernardos</foaf:name>
+        <foaf:name>Edna Ruckhaus</foaf:name>
         <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid6">
@@ -87,39 +87,39 @@
         <schema:affiliation>Federación Española de Municipios y Provincias</schema:affiliation>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid7">
-        <rdfs:label xml:lang="en">GeoNames</rdfs:label>
-        <rdfs:label xml:lang="es">GeoNames</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="http://www.geonames.org/ontology"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid8">
-        <rdfs:label xml:lang="es">Dirección Postal (esdir)</rdfs:label>
-        <rdfs:label xml:lang="en">Postal Address (esdir)</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid9">
-        <rdfs:label xml:lang="es">Callejero (escjr)</rdfs:label>
-        <rdfs:label xml:lang="en">Street catalogue (escjr)</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid10">
-        <rdfs:label xml:lang="es">Territorio (esadm)</rdfs:label>
-        <rdfs:label xml:lang="en">Territory (esadm)</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid11">
         <rdfs:label xml:lang="en">GeoSPARQL</rdfs:label>
         <rdfs:label xml:lang="es">GeoSPARQL</rdfs:label>
         <vocab:vocabularyIRI rdf:resource="http://www.opengis.net/ont/geosparql"/>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid12">
-        <rdfs:label xml:lang="en">Traffic (Ciudades Abiertas)</rdfs:label>
-        <rdfs:label xml:lang="es">Tráfico (Ciudades Abiertas)</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/trafico"/>
+    <rdf:Description rdf:nodeID="genid8">
+        <rdfs:label xml:lang="es">Infraestructura (edintinf)</rdfs:label>
+        <rdfs:label xml:lang="en">Infrastructure (edintinf)</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="https://edint.es/def/infraestructura"/>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid13">
+    <rdf:Description rdf:nodeID="genid9">
         <rdfs:label xml:lang="en">OGC Simple Features</rdfs:label>
         <rdfs:label xml:lang="es">OGC Simple Features</rdfs:label>
         <vocab:vocabularyIRI rdf:resource="http://www.opengis.net/ont/sf"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid10">
+        <rdfs:label xml:lang="en">GeoNames</rdfs:label>
+        <rdfs:label xml:lang="es">GeoNames</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://www.geonames.org/ontology"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid11">
+        <rdfs:label xml:lang="en">Regulated Zones (edintzone)</rdfs:label>
+        <rdfs:label xml:lang="es">Zonas Regulatorias (edintzone)</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="https://edint.es/def/zona-regulatoria"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid12">
+        <rdfs:label xml:lang="es">Dirección Postal (esdir)</rdfs:label>
+        <rdfs:label xml:lang="en">Postal Address (esdir)</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid13">
+        <rdfs:label xml:lang="es">Territorio (esadm)</rdfs:label>
+        <rdfs:label xml:lang="en">Territory (esadm)</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid14">
         <rdfs:label xml:lang="en">OWL-Time</rdfs:label>
@@ -127,24 +127,24 @@
         <vocab:vocabularyIRI rdf:resource="http://www.w3.org/2006/time"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid15">
+        <rdfs:label xml:lang="en">Traffic (Ciudades Abiertas)</rdfs:label>
+        <rdfs:label xml:lang="es">Tráfico (Ciudades Abiertas)</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://vocab.ciudadesabiertas.es/def/transporte/trafico"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid16">
         <rdfs:label xml:lang="en">geo_core (IGN)</rdfs:label>
         <rdfs:label xml:lang="es">geo_core (IGN)</rdfs:label>
         <vocab:vocabularyIRI rdf:resource="https://datos.ign.es/def/geo_core"/>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid16">
+    <rdf:Description rdf:nodeID="genid17">
+        <rdfs:label xml:lang="es">Callejero (escjr)</rdfs:label>
+        <rdfs:label xml:lang="en">Street catalogue (escjr)</rdfs:label>
+        <vocab:vocabularyIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid18">
         <rdfs:label xml:lang="en">Commercial Establishments (edintcom)</rdfs:label>
         <rdfs:label xml:lang="es">Establecimientos Comerciales (edintcom)</rdfs:label>
         <vocab:vocabularyIRI rdf:resource="https://edint.es/def/censo-locales"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid17">
-        <rdfs:label xml:lang="es">Infraestructura (edintinf)</rdfs:label>
-        <rdfs:label xml:lang="en">Infrastructure (edintinf)</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="https://edint.es/def/infraestructura"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid18">
-        <rdfs:label xml:lang="en">Regulated Zones (edintzone)</rdfs:label>
-        <rdfs:label xml:lang="es">Zonas Regulatorias (edintzone)</rdfs:label>
-        <vocab:vocabularyIRI rdf:resource="https://edint.es/def/zona-regulatoria"/>
     </rdf:Description>
     
 
@@ -613,11 +613,33 @@
     
 
 
+    <!-- https://edint.es/def/agenda#eventType -->
+
+
+    <owl:ObjectProperty rdf:about="https://edint.es/def/agenda#eventType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://edint.es/def/agenda#CityEvent"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                <owl:hasValue rdf:resource="https://edint.es/kos/EventType"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Tipo de evento que tendrá lugar.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Type of event to be held.</rdfs:comment>
+        <rdfs:label xml:lang="es">tipo de evento</rdfs:label>
+        <rdfs:label xml:lang="en">type of event</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://edint.es/def/censo-locales#locatedInZone -->
 
 
     <owl:ObjectProperty rdf:about="https://edint.es/def/censo-locales#locatedInZone">
         <rdfs:isDefinedBy rdf:resource="https://edint.es/def/censo-locales#"/>
+        <rdfs:label xml:lang="en">located in zone</rdfs:label>
+        <rdfs:label xml:lang="es">situado en zona</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -649,6 +671,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://edint.es/def/promocion-comercial#hasCommercialEventType">
+        <rdfs:domain rdf:resource="https://edint.es/def/promocion-comercial#CommercialEvent"/>
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -662,7 +685,7 @@
         </rdfs:range>
         <rdfs:comment xml:lang="en">It relates an entity, especially a commercial event, to a skos concept that is in the commercial event type taxonomy.</rdfs:comment>
         <rdfs:comment xml:lang="es">Relaciona una entidad, principalmente un evento comercial, con un concepto skos que está en la taxonomía del tipo de evento comercial.</rdfs:comment>
-        <rdfs:label xml:lang="en">has commercial event campaign</rdfs:label>
+        <rdfs:label xml:lang="en">has commercial event type</rdfs:label>
         <rdfs:label xml:lang="es">tiene tipo de evento comercial</rdfs:label>
     </owl:ObjectProperty>
     
@@ -684,10 +707,54 @@
 
 
     <owl:ObjectProperty rdf:about="https://edint.es/def/promocion-comercial#locatedInZone">
-        <rdfs:comment xml:lang="en">It relates en entity, especially a commercial space, event or campaign, to the zone where it is.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Relaciona una entidad, princiaplmente un espacio, campaña o evento comercial, con la zona en la que está.</rdfs:comment>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://edint.es/def/promocion-comercial#CommercialCampaign"/>
+                    <rdf:Description rdf:about="https://edint.es/def/promocion-comercial#CommercialEvent"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://edint.es/def/zona-regulatoria#RegulatedZone"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://edint.es/def/zona-regulatoria#hasRegulatedZoneType"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/RegulatedZoneType/EconomicInterestZone"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">It relates en entity, event or campaign, to the zone where it is located.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Relaciona una entidad, una campaña o un evento comercial, con la zona en la que está situada.</rdfs:comment>
         <rdfs:label xml:lang="en">located in zone</rdfs:label>
         <rdfs:label xml:lang="es">situado en zona</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://edint.es/def/zona-regulatoria#hasRegulatedZoneType -->
+
+
+    <owl:ObjectProperty rdf:about="https://edint.es/def/zona-regulatoria#hasRegulatedZoneType">
+        <rdfs:domain rdf:resource="https://edint.es/def/zona-regulatoria#RegulatedZone"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/RegulatedZoneType"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Vincula una zona regulada a su clasificación de tipo del esquema de conceptos SKOS RegulatedZoneType.</rdfs:comment>
+        <rdfs:comment xml:lang="en">links a regulated zone to its type classification from the RegulatedZoneType SKOS concept scheme.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
+        <rdfs:label xml:lang="en">has regulated zone type</rdfs:label>
+        <rdfs:label xml:lang="es">tiene tipo de zona regulada</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1083,6 +1150,26 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+    
+
+
+    <!-- https://edint.es/def/agenda#CityEvent -->
+
+
+    <owl:Class rdf:about="https://edint.es/def/agenda#CityEvent">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <rdfs:subClassOf rdf:resource="https://schema.org/Event"/>
+        <rdfs:comment xml:lang="en">An event that will take place in a city.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Evento que tendrá lugar en una ciudad.</rdfs:comment>
+        <rdfs:label>Evento</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://edint.es/def/infraestructura#InfrastructureElement -->
 
 
@@ -1120,45 +1207,8 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     <owl:Class rdf:about="https://edint.es/def/promocion-comercial#CommercialSpace">
         <rdfs:subClassOf rdf:resource="https://edint.es/def/infraestructura#InfrastructureElement"/>
         <rdfs:isDefinedBy rdf:resource="https://edint.es/def/censo-locales#"/>
-    </owl:Class>
-    
-
-
-    <!-- https://edint.es/def/zona-regulatoria#CommercialZone -->
-
-
-    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#CommercialZone">
-        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#EconomicInterestZone"/>
-    </owl:Class>
-    
-
-
-    <!-- https://edint.es/def/zona-regulatoria#EconomicInterestZone -->
-
-
-    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#EconomicInterestZone">
-        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#RegulatedZone"/>
-        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
-    </owl:Class>
-    
-
-
-    <!-- https://edint.es/def/zona-regulatoria#IndustrialZone -->
-
-
-    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#IndustrialZone">
-        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#EconomicInterestZone"/>
-        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
-    </owl:Class>
-    
-
-
-    <!-- https://edint.es/def/zona-regulatoria#LeisureZone -->
-
-
-    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#LeisureZone">
-        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#RegulatedZone"/>
-        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
+        <rdfs:label xml:lang="en">Commercial space</rdfs:label>
+        <rdfs:label xml:lang="es">Espacio comercial</rdfs:label>
     </owl:Class>
     
 
@@ -1172,13 +1222,10 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
-    <!-- https://edint.es/def/zona-regulatoria#StreetVendingZone -->
+    <!-- https://schema.org/Event -->
 
 
-    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#StreetVendingZone">
-        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#EconomicInterestZone"/>
-        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
-    </owl:Class>
+    <owl:Class rdf:about="https://schema.org/Event"/>
     
 
 
@@ -1230,6 +1277,15 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
+    <!-- https://edint.es/kos/EventType -->
+
+
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/EventType">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://edint.es/kos/IAE -->
 
 
@@ -1240,18 +1296,19 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- https://edint.es/kos/RegulatedZoneType -->
 
 
-    <rdf:Description rdf:about="https://oeg.fi.upm.es/">
-        <foaf:name>Ontology Engineering Group, UPM</foaf:name>
-    </rdf:Description>
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/RegulatedZoneType">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edint.es/kos/RegulatedZoneType/EconomicInterestZone -->
+
+
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/RegulatedZoneType/EconomicInterestZone"/>
 </rdf:RDF>
 
 
