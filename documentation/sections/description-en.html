@@ -1,10 +1,10 @@
 <h2 id="desc" class="list">Commercial Promotion: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 
-<p>Figure 1 shows the main entities of the ontology and the relationships among them. The ontology represents, among other things, <a href="#CommercialCampaign">commercial campaigns</a>, which represent a set of marketing operations and strategies that pursue common objectives such as giving visibility to certain products and services, and <a href="#CommercialEvent">commercial events</a>, which represent a planned activity to interact with their target audience —customers, partners, or employees— with the aim of promoting products or services. <a href="#CommercialCampaign">Commercial campaigns</a> may <a href="#hasCommercialCampaignType">correspond to a campaign type</a>, <a href="#locatedInZone">cover a zone</a>, and <a href="#edintzone:locatedIn">be located in a municipality</a>. In addition, <a href="#numberOfCommercialSpaces">they have a number of joined commercial spaces</a>, although it is also possible to <a href="#includesCommercialSpace">indicate the specific affiliated commercial spaces</a>. Other data include a <a href="#schema:startDate">start date</a>, an <a href="#schema:endDate">end date</a>, and a <a href="#budget">budget</a>.</p>
+<p>Figure 1 shows the main entities of the ontology and the relationships among them. The ontology represents, among other things, <a href="#CommercialCampaign">commercial campaigns</a>, which represent a set of marketing operations and strategies that pursue common objectives such as giving visibility to certain products and services, and <a href="#CommercialEvent">commercial events</a>, which represent a planned activity to interact with their target audience —customers, partners, or employees— with the aim of promoting products or services. <a href="#CommercialCampaign">Commercial campaigns</a> may <a href="#hasCommercialCampaignType">correspond to a campaign type</a>, <a href="#locatedInZone">cover a zone</a>, and <a href="#https://edint.es/def/zona-regulatoria#locatedIn">be located in a municipality</a>. In addition, <a href="#numberOfCommercialSpaces">they have a number of joined commercial spaces</a>, although it is also possible to <a href="#includesCommercialSpace">indicate the specific affiliated commercial spaces</a>. Other data include a <a href="#https://schema.org/startDate">start date</a>, an <a href="#https://schema.org/endDate">end date</a>, and a <a href="#budget">budget</a>.</p>
 
-<p><a href="#CommercialEvent">Commercial events</a> can <a href="#hasCommercialEventType">correspond to an event type</a> <a href="#locatedInZone">cover a zone</a>, and <a href="#edintzone:locatedIn">be located in a municipality</a>. Other data include a <a href="#schema:startDate">start date</a> and an <a href="#schema:endDate">end date</a>, but more complex schedules can be represented using <a href="#schema:Event">event</a>, of which <a href="#CommercialEvent">commercial events</a> are a subclass, and <a href="#schema:Schedule">schedule</a> from the <a href="http://schema.org/">schema ontology</a>.
+<p><a href="#CommercialEvent">Commercial events</a> can <a href="#hasCommercialEventType">correspond to an event type</a> <a href="#locatedInZone">cover a zone</a>, and <a href="#https://edint.es/def/zona-regulatoria#locatedIn">be located in a municipality</a>. Other data include a <a href="#https://schema.org/startDate">start date</a> and an <a href="#https://schema.org/endDate">end date</a>, but more complex schedules can be represented using <a href="#https://schema.org/Event">event</a>, of which <a href="#CommercialEvent">commercial events</a> are a subclass, and <a href="#https://schema.org/Schedule">schedule</a> from the <a href="http://schema.org/">schema ontology</a>.
 </p>
-<p>For both <a href="#CommercialCampaign">commercial campaigns</a> and <a href="#CommercialEvent">commercial events</a>, it is possible to establish their <a href="#geosparql:asWKT">geolocation</a> through <a href="#gsp:hasGeometry">their geometry</a>.</p>
+<p>For both <a href="#CommercialCampaign">commercial campaigns</a> and <a href="#CommercialEvent">commercial events</a>, it is possible to establish their <a href="#http://www.opengis.net/ont/geosparql#asWKT">geolocation</a> through <a href="#http://www.opengis.net/ont/geosparql#hasGeometry">their geometry</a>.</p>
 
 <p>NOTE: To establish/obtain the <a href="edintzone:RegulatedZone">zone</a> in which a <a href="#CommercialSpace">commercial space</a> is located, the property <a href="#locatedInZone">located in zone</a> can be used, but it is also possible to use the location-related properties of the <a href="https://edint.es/def/infraestructura#InfrastructureElementructureElement">infrastructure elements</a> from the <a href="https://edint.es/def/infraestructura#">Infrastructure Ontology</a>.
 </p>
@@ -13,52 +13,61 @@
 Figure 1. Conceptual model of the ontology.
 </figcaption></center></p> 
 
-<p>The following shows an example in RDF using RDF Turtle notation. This example describes the <a href="#CommercialCampaign">commercial campaign</a> CAMP-2025-CH-001, of <a href="#hasCommercialCampaignType">type</a> Revilatization, and the <a href="#CommercialEvent">commercial event</a> EV-2025-CH-001, of <a href="#hasCommercialEventType">type</a> LocalEvent. Both <a href="#locatedInZone">are located in the zone of economic interest</a> ZONA-CHAMBERI-001. The <a href="#CommercialCampaign">commercial campaign</a> <a href="#includesCommercialSpace">includes the commercial space</a> COM-CH-0001, which obviously will also be located in that zone, and its <a href="#schema:startDate">start</a> and <a href="#schema:startDate">end</a> dates.
+<p>The following shows an example in RDF using RDF Turtle notation. This example describes the <a href="#CommercialCampaign">commercial campaign</a> CAMP-2025-CH-001, of <a href="#hasCommercialCampaignType">type</a> Revilatization, and the <a href="#CommercialEvent">commercial event</a> EV-2025-CH-001, of <a href="#hasCommercialEventType">type</a> LocalEvent. Both <a href="#locatedInZone">are located in the zone of economic interest</a> ZONA-CHAMBERI-001. The <a href="#CommercialCampaign">commercial campaign</a> <a href="#includesCommercialSpace">includes the commercial space</a> COM-CH-0001, which obviously will also be located in that zone, and its <a href="#https://schema.org/startDate">start</a> and <a href="#https://schema.org/startDate">end</a> dates.
 </p>
 
 <pre><textarea style="resize:none" readonly id="code_cd71" name="code" rows="25" cols="100">
+@prefix comp: &lt;http://semweb.mmlab.be/ns/rml-compression#&gt; .
+@prefix d2rq: &lt;http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#&gt; .
 @prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
 @prefix edintcom: &lt;https://edint.es/def/censo-locales#&gt; .
 @prefix edintkoaccCamtype: &lt;https://edint.es/kos/CommercialCampaignType/&gt; .
 @prefix edintkoacctype: &lt;https://edint.es/kos/CommercialEventType/&gt; .
 @prefix edintpro: &lt;https://edint.es/def/promocion-comercial#&gt; .
 @prefix edintzone: &lt;https://edint.es/def/zona-regulatoria#&gt; .
-@prefix ex: &lt;https://example.org/recurso/&gt; .
+@prefix ex: &lt;https://example.org/id/&gt; .
+@prefix fnml: &lt;http://semweb.mmlab.be/ns/fnml#&gt; .
 @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix formats: &lt;http://www.w3.org/ns/formats/&gt; .
 @prefix geosparql: &lt;http://www.opengis.net/ont/geosparql#&gt; .
+@prefix grel: &lt;http://users.ugent.be/~bjdmeest/function/grel.ttl#&gt; .
+@prefix ql: &lt;http://semweb.mmlab.be/ns/ql#&gt; .
 @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix rml: &lt;http://semweb.mmlab.be/ns/rml#&gt; .
+@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt; .
 @prefix schema: &lt;http://schema.org/&gt; .
+@prefix void: &lt;http://rdfs.org/ns/void#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
-ex:CAMP-2025-CH-001
-  a edintpro:CommercialCampaign;
+&lt;http://vocab.linkeddata.es/datosabiertos/recurso/campania-comercial/CAMP-2025-CH-001&gt;
+  a edintcom:CommercialCampaign;
   dcterms:identifier "CAMP-2025-CH-001";
   rdfs:comment "Evento local de dinamización comercial en la zona gastronómica del Mercado de Chamberí, tomando como referencia la oferta real de restauración del mercado y sus horarios de servicio.";
   schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
   schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
-  edintpro:includesCommercialSpace ex:COM-CH-0001;
-  edintpro:locatedInZone ex:ZONA-CHAMBERI-001;
+  edintcom:includes &lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/COM-CH-0001&gt;;
+  edintcom:locatedInZone &lt;http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001&gt;;
   edintpro:hasCommercialCampaignType edintkoaccCamtype:Revitalization;
   rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
 
-ex:COM-CH-0001 a
+&lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/COM-CH-0001&gt; a
     edintcom:CommercialSpace;
-  edintpro:locatedInZone ex:ZONA-CHAMBERI-001 .
+  edintcom:locatedInZone &lt;http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001&gt; .
 
-ex:EV-2025-CH-001
-  a edintpro:CommercialEvent;
+&lt;http://vocab.linkeddata.es/datosabiertos/recurso/evento-comercial/EV-2025-CH-001&gt;
+  a edintcom:CommercialEvent;
   dcterms:identifier "EV-2025-CH-001";
   schema:endDate "2025-06-08T16:30:00"^^xsd:dateTime;
   schema:startDate "2025-06-06T12:30:00"^^xsd:dateTime;
-  edintpro:hasCommercialEventType edintkoacctype:LocalEvent;
-  edintpro:locatedInZone ex:ZONA-CHAMBERI-001;
+  edintcom:hasCommercialEventType edintkoacctype:LocalEvent;
+  edintcom:locatedInZone &lt;http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001&gt;;
   rdfs:comment "Evento local de dinamización comercial en la zona gastronómica del Mercado de Chamberí, tomando como referencia la oferta real de restauración del mercado y sus horarios de servicio.";
   rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
 
-ex:ZONA-CHAMBERI-001 a edintzone:EconomicInterestZone;
+&lt;http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001&gt; a edintzone:EconomicInterestZone;
   dcterms:identifier "ZONA-CHAMBERI-001";
-  geosparql:hasGeometry ex:ZONA-CHAMBERI-001-geometry;
+  geosparql:hasGeometry &lt;http://vocab.linkeddata.es/datosabiertos/recurso/zona/geometry/ZONA-CHAMBERI-001&gt;;
   rdfs:comment "Zona de interés económico asociada al Mercado de Chamberí, mercado tradicional de Madrid con origen en 1876 y reinaugurado en 1943, con accesos por Alonso Cano, García de Paredes y Viriato, y con presencia de restauración y cafetería-pastelería.";
   rdfs:label "Mercado de Chamberí" .
 

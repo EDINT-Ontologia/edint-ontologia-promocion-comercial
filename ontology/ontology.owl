@@ -30,7 +30,7 @@
      xmlns:edintpro="https://edint.es/def/promocion-comercial#"
      xmlns:edintveh="https://edint.es/def/censo-vehiculos#"
      xmlns:edintzone="https://edint.es/def/zona-regulatoria#">
-    <owl:Ontology rdf:about="https://edint.es/def/promocion-comercial#">
+    <owl:Ontology rdf:about="https://edint.es/def/promocion-comercial">
         <owl:versionIRI rdf:resource="https://edint.es/def/promocion-comercial/0.2.1"/>
         <dcterms:abstract xml:lang="en">EDINT ontology providing a common vocabulary for representing the main entities and data related to commercial promotion, such as campaigns and events.</dcterms:abstract>
         <dcterms:abstract xml:lang="es">Ontología EDINT que proporciona un vocabulario común para la representación de las entidades y los datos principales relacionados con la promoción comercial, como campañas y eventos.</dcterms:abstract>
@@ -82,7 +82,7 @@
         <dcterms:title xml:lang="en">EDINT Commercial Promotion Ontology</dcterms:title>
         <dcterms:title xml:lang="es">Ontología EDINT de Promoción Comercial</dcterms:title>
         <vann:preferredNamespacePrefix>edintpro</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/promocion-comercial#"/>
+        <vann:preferredNamespaceUri>https://edint.es/def/promocion-comercial#</vann:preferredNamespaceUri>
         <rdfs:label xml:lang="en">Commercial Promotion</rdfs:label>
         <rdfs:label xml:lang="es">Promoción Comercial</rdfs:label>
         <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/releases/tag/v0.2.0"/>
