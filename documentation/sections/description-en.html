@@ -36,22 +36,25 @@ ex:CAMP-2026-USERA-001
   a edintpro:CommercialCampaign;
   dcterms:identifier "CAMP-2026-USERA-001";
   rdfs:comment "Evento para revitalizar los mercados municipales y las tiendas de barrio tradicionales";
-  schema:endDate "2026-10-08T16:30:00"^^xsd:dateTime;
-  schema:startDate "2026-11-06T12:30:00"^^xsd:dateTime;
+  schema:startDate "2026-10-08T16:30:00"^^xsd:dateTime;
+  schema:endDate "2026-11-06T12:30:00"^^xsd:dateTime;
   edintpro:includesCommercialSpace ex:COM-USERA-0001;
   edintpro:includesCommercialSpace ex:COM-USERA-0002;
-  ...
   edintpro:numberOfCommercialSpaces 30;
   edintpro:locatedInZone ex:ZONA-USERA-001;
   edintpro:hasCommercialCampaignType edintkoaccCamtype:Revitalization;
   rdfs:label "Usera Próxima" .
 
 ex:COM-CH-0001 a
-    edintcom:CommercialSpace;
+  edintcom:CommercialSpace;
   edintpro:locatedInZone ex:ZONA-CHAMBERI-001 .
 
-  ex:COM-USERA-0001 a
-    edintcom:CommercialSpace;
+ex:COM-USERA-0001 a
+  edintcom:CommercialSpace;
+  edintpro:locatedInZone ex:ZONA-USERA-001 .
+
+ex:COM-USERA-0002 a
+  edintcom:CommercialSpace;
   edintpro:locatedInZone ex:ZONA-USERA-001 .
 
 ex:EV-2025-CH-001
