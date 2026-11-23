@@ -49,7 +49,7 @@ Figure 1. Conceptual model of the ontology.
   edintcom:includes &lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/COM-CH-0001&gt;;
   edintcom:locatedInZone &lt;http://vocab.linkeddata.es/datosabiertos/recurso/zona/ZONA-CHAMBERI-001&gt;;
   edintpro:hasCommercialCampaignType edintkoaccCamtype:Revitalization;
-  rdfs:label "Semana Gastronómica Mercado de Chamberí 2025" .
+  rdfs:label "Usera Próxima" .
 
 &lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacioComercial/COM-CH-0001&gt; a
     edintcom:CommercialSpace;
@@ -71,9 +71,19 @@ Figure 1. Conceptual model of the ontology.
   rdfs:comment "Zona de interés económico asociada al Mercado de Chamberí, mercado tradicional de Madrid con origen en 1876 y reinaugurado en 1943, con accesos por Alonso Cano, García de Paredes y Viriato, y con presencia de restauración y cafetería-pastelería.";
   rdfs:label "Mercado de Chamberí" .
 
+ex:ZONA-USERA-001 a edintzone:EconomicInterestZone;
+  dcterms:identifier "ZONA-USERA-001";
+  esadm:municipio ex:MADRID;
+  geosparql:hasGeometry ex:ZONA-USERA-001-geometry;
+  rdfs:comment "Zona Calle Marcelo Usera que es la columna vertebral del comercio en el distrito. Concentra gran variedad de tiendas de toda la vida mezcladas con negocios de la comunidad china, restaurantes, panaderías asiáticas y servicios";
+  rdfs:label "Calle de Marcelo Usera" .
+
+ex:MADRID a esadm:Municipio;
+  rdfs:label "Ayuntamiento de Madrid"@es .
+
 </textarea></pre>
 <script>
-    var editor_d581 = CodeMirror.fromTextArea(document.getElementById("code_d581"), {
+    var editor_d581 = CodeMirror.fromTextArea(document.getElementById("code_cd71"), {
         mode: "text/turtle",
         matchBrackets: true
     });
