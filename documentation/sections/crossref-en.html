@@ -8,19 +8,16 @@ This section provides details for each class and property defined by Commercial 
   <li><a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Ciudad" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Ciudad">Ciudad</a></li>
   <li><a href="#CommercialCampaign" title="https://edint.es/def/promocion-comercial#CommercialCampaign">Commercial campaign</a></li>
   <li><a href="#CommercialEvent" title="https://edint.es/def/promocion-comercial#CommercialEvent">Commercial event</a></li>
-  <li><a href="#CommercialSpace" title="https://edint.es/def/promocion-comercial#CommercialSpace"> <span>Commercial Space</span> </a></li>
-  <li><a href="#https://edint.es/def/zona-regulatoria#CommercialZone" title="https://edint.es/def/zona-regulatoria#CommercialZone"> <span>Commercial Zone</span> </a></li>
+  <li><a href="#CommercialSpace" title="https://edint.es/def/promocion-comercial#CommercialSpace">Commercial space</a></li>
   <li><a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept"> <span>Concept</span> </a></li>
   <li><a href="#http://www.w3.org/2004/02/skos/core#ConceptScheme" title="http://www.w3.org/2004/02/skos/core#ConceptScheme"> <span>Concept Scheme</span> </a></li>
   <li><a href="#http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal" title="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal">Dirección postal</a></li>
   <li><a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito">Distrito</a></li>
-  <li><a href="#https://edint.es/def/zona-regulatoria#EconomicInterestZone" title="https://edint.es/def/zona-regulatoria#EconomicInterestZone"> <span>Economic Interest Zone</span> </a></li>
   <li><a href="#http://schema.org/Event" title="http://schema.org/Event"> <span>Event</span> </a></li>
+  <li><a href="#https://edint.es/def/agenda#CityEvent" title="https://edint.es/def/agenda#CityEvent">Evento</a></li>
   <li><a href="#http://www.opengis.net/ont/geosparql#Feature" title="http://www.opengis.net/ont/geosparql#Feature">Feature</a></li>
   <li><a href="#http://www.opengis.net/ont/geosparql#Geometry" title="http://www.opengis.net/ont/geosparql#Geometry">Geometry</a></li>
-  <li><a href="#https://edint.es/def/zona-regulatoria#IndustrialZone" title="https://edint.es/def/zona-regulatoria#IndustrialZone"> <span>Industrial Zone</span> </a></li>
   <li><a href="#https://edint.es/def/infraestructura#InfrastructureElement" title="https://edint.es/def/infraestructura#InfrastructureElement"> <span>Infrastructure Element</span> </a></li>
-  <li><a href="#https://edint.es/def/zona-regulatoria#LeisureZone" title="https://edint.es/def/zona-regulatoria#LeisureZone"> <span>Leisure Zone</span> </a></li>
   <li><a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio">Municipio</a></li>
   <li><a href="#http://www.opengis.net/ont/sf#Point" title="http://www.opengis.net/ont/sf#Point"> <span>Point</span> </a></li>
   <li><a href="#http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Portal" title="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Portal">Portal</a></li>
@@ -28,7 +25,6 @@ This section provides details for each class and property defined by Commercial 
   <li><a href="#https://edint.es/def/zona-regulatoria#RegulatedZone" title="https://edint.es/def/zona-regulatoria#RegulatedZone"> <span>Regulated Zone</span> </a></li>
   <li><a href="#http://schema.org/Schedule" title="http://schema.org/Schedule"> <span>Schedule</span> </a></li>
   <li><a href="#http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo" title="http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo">Section of Track</a></li>
-  <li><a href="#https://edint.es/def/zona-regulatoria#StreetVendingZone" title="https://edint.es/def/zona-regulatoria#StreetVendingZone"> <span>Street Vending Zone</span> </a></li>
   <li><a href="#http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via" title="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via">Vía</a></li>
  </ul>
  <div class="entity" id="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Autonomia">
@@ -91,6 +87,12 @@ This section provides details for each class and property defined by Commercial 
  <div class="entity" id="CommercialCampaign">
   <h3>Commercial campaign<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edint.es/def/promocion-comercial#CommercialCampaign</p>
+  <dl class="description">
+   <dt>is in domain of</dt>
+   <dd>
+    <a href="#locatedInZone" title="https://edint.es/def/promocion-comercial#locatedInZone">located in zone</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+  </dl>
  </div>
  <div class="entity" id="CommercialEvent">
   <h3>Commercial event<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
@@ -100,10 +102,14 @@ This section provides details for each class and property defined by Commercial 
    <dd>
     <a href="#http://schema.org/Event" title="http://schema.org/Event">Event</a> <sup class="type-c" title="class">c</sup>
    </dd>
+   <dt>is in domain of</dt>
+   <dd>
+    <a href="#hasCommercialEventType" title="https://edint.es/def/promocion-comercial#hasCommercialEventType">has commercial event type</a> <sup class="type-op" title="object property">op</sup>, <a href="#locatedInZone" title="https://edint.es/def/promocion-comercial#locatedInZone">located in zone</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
   </dl>
  </div>
  <div class="entity" id="CommercialSpace">
-  <h3>Commercial Space<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <h3>Commercial space<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edint.es/def/promocion-comercial#CommercialSpace</p>
   <dl class="definedBy">
    <dt>Is defined by</dt>
@@ -115,16 +121,6 @@ This section provides details for each class and property defined by Commercial 
    <dt>has super-classes</dt>
    <dd>
     <a href="#https://edint.es/def/infraestructura#InfrastructureElement" title="https://edint.es/def/infraestructura#InfrastructureElement">Infrastructure Element</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="https://edint.es/def/zona-regulatoria#CommercialZone">
-  <h3>Commercial Zone<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://edint.es/def/zona-regulatoria#CommercialZone</p>
-  <dl class="description">
-   <dt>has super-classes</dt>
-   <dd>
-    <a href="#https://edint.es/def/zona-regulatoria#EconomicInterestZone" title="https://edint.es/def/zona-regulatoria#EconomicInterestZone">Economic Interest Zone</a> <sup class="type-c" title="class">c</sup>
    </dd>
   </dl>
  </div>
@@ -150,7 +146,7 @@ This section provides details for each class and property defined by Commercial 
   <dl class="description">
    <dt>has members</dt>
    <dd>
-    <a href="#https://edint.es/kos/CommercialCampaignType" title="https://edint.es/kos/CommercialCampaignType">Commercial campaign type</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edint.es/kos/CommercialEventType" title="https://edint.es/kos/CommercialEventType">Commercial event type</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edint.es/kos/IAE" title="https://edint.es/kos/IAE">IAE</a> <sup class="type-ni" title="named individual">ni</sup>
+    <a href="#https://edint.es/kos/CommercialCampaignType" title="https://edint.es/kos/CommercialCampaignType">Commercial campaign type</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edint.es/kos/CommercialEventType" title="https://edint.es/kos/CommercialEventType">Commercial event type</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edint.es/kos/EventType" title="https://edint.es/kos/EventType">Event Type</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edint.es/kos/IAE" title="https://edint.es/kos/IAE">IAE</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edint.es/kos/RegulatedZoneType" title="https://edint.es/kos/RegulatedZoneType">Regulated Zone Type</a> <sup class="type-ni" title="named individual">ni</sup>
    </dd>
   </dl>
  </div>
@@ -192,26 +188,6 @@ This section provides details for each class and property defined by Commercial 
    </dd>
   </dl>
  </div>
- <div class="entity" id="https://edint.es/def/zona-regulatoria#EconomicInterestZone">
-  <h3>Economic Interest Zone<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://edint.es/def/zona-regulatoria#EconomicInterestZone</p>
-  <dl class="definedBy">
-   <dt>Is defined by</dt>
-   <dd>
-    <a href="https://edint.es/def/zona-regulatoria#">https://edint.es/def/zona-regulatoria#</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>has super-classes</dt>
-   <dd>
-    <a href="#https://edint.es/def/zona-regulatoria#RegulatedZone" title="https://edint.es/def/zona-regulatoria#RegulatedZone">Regulated Zone</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>has sub-classes</dt>
-   <dd>
-    <a href="#https://edint.es/def/zona-regulatoria#CommercialZone" title="https://edint.es/def/zona-regulatoria#CommercialZone">Commercial Zone</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edint.es/def/zona-regulatoria#IndustrialZone" title="https://edint.es/def/zona-regulatoria#IndustrialZone">Industrial Zone</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edint.es/def/zona-regulatoria#StreetVendingZone" title="https://edint.es/def/zona-regulatoria#StreetVendingZone">Street Vending Zone</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-  </dl>
- </div>
  <div class="entity" id="http://schema.org/Event">
   <h3>Event<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://schema.org/Event</p>
@@ -225,6 +201,23 @@ This section provides details for each class and property defined by Commercial 
    <dt>has sub-classes</dt>
    <dd>
     <a href="#CommercialEvent" title="https://edint.es/def/promocion-comercial#CommercialEvent">Commercial event</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edint.es/def/agenda#CityEvent">
+  <h3>Evento<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edint.es/def/agenda#CityEvent</p>
+  <div class="comment">
+   <span class="markdown">An event that will take place in a city.</span>
+  </div>
+  <dl class="description">
+   <dt>has super-classes</dt>
+   <dd>
+    <a href="https://schema.org/Event" target="_blank" title="https://schema.org/Event">Event</a> <sup class="type-c" title="class">c</sup>, <a href="#http://www.opengis.net/ont/geosparql#Feature" title="http://www.opengis.net/ont/geosparql#Feature">Feature</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>is in domain of</dt>
+   <dd>
+    <a href="#https://edint.es/def/agenda#eventType" title="https://edint.es/def/agenda#eventType">type of event</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
@@ -243,7 +236,7 @@ This section provides details for each class and property defined by Commercial 
   <dl class="description">
    <dt>has sub-classes</dt>
    <dd>
-    <a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Autonomia" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Autonomia">Autonomía</a> <sup class="type-c" title="class">c</sup>, <a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio">Barrio</a> <sup class="type-c" title="class">c</sup>, <a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito">Distrito</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edint.es/def/infraestructura#InfrastructureElement" title="https://edint.es/def/infraestructura#InfrastructureElement">Infrastructure Element</a> <sup class="type-c" title="class">c</sup>, <a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio">Municipio</a> <sup class="type-c" title="class">c</sup>, <a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Provincia" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Provincia">Provincia</a> <sup class="type-c" title="class">c</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo" title="http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo">Section of Track</a> <sup class="type-c" title="class">c</sup>
+    <a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Autonomia" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Autonomia">Autonomía</a> <sup class="type-c" title="class">c</sup>, <a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio">Barrio</a> <sup class="type-c" title="class">c</sup>, <a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito">Distrito</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edint.es/def/agenda#CityEvent" title="https://edint.es/def/agenda#CityEvent">Evento</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edint.es/def/infraestructura#InfrastructureElement" title="https://edint.es/def/infraestructura#InfrastructureElement">Infrastructure Element</a> <sup class="type-c" title="class">c</sup>, <a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio">Municipio</a> <sup class="type-c" title="class">c</sup>, <a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Provincia" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Provincia">Provincia</a> <sup class="type-c" title="class">c</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo" title="http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo">Section of Track</a> <sup class="type-c" title="class">c</sup>
    </dd>
    <dt>is in domain of</dt>
    <dd>
@@ -271,22 +264,6 @@ This section provides details for each class and property defined by Commercial 
    </dd>
   </dl>
  </div>
- <div class="entity" id="https://edint.es/def/zona-regulatoria#IndustrialZone">
-  <h3>Industrial Zone<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://edint.es/def/zona-regulatoria#IndustrialZone</p>
-  <dl class="definedBy">
-   <dt>Is defined by</dt>
-   <dd>
-    <a href="https://edint.es/def/zona-regulatoria#">https://edint.es/def/zona-regulatoria#</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>has super-classes</dt>
-   <dd>
-    <a href="#https://edint.es/def/zona-regulatoria#EconomicInterestZone" title="https://edint.es/def/zona-regulatoria#EconomicInterestZone">Economic Interest Zone</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-  </dl>
- </div>
  <div class="entity" id="https://edint.es/def/infraestructura#InfrastructureElement">
   <h3>Infrastructure Element<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edint.es/def/infraestructura#InfrastructureElement</p>
@@ -303,23 +280,7 @@ This section provides details for each class and property defined by Commercial 
    </dd>
    <dt>has sub-classes</dt>
    <dd>
-    <a href="#CommercialSpace" title="https://edint.es/def/promocion-comercial#CommercialSpace">Commercial Space</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="https://edint.es/def/zona-regulatoria#LeisureZone">
-  <h3>Leisure Zone<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://edint.es/def/zona-regulatoria#LeisureZone</p>
-  <dl class="definedBy">
-   <dt>Is defined by</dt>
-   <dd>
-    <a href="https://edint.es/def/zona-regulatoria#">https://edint.es/def/zona-regulatoria#</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>has super-classes</dt>
-   <dd>
-    <a href="#https://edint.es/def/zona-regulatoria#RegulatedZone" title="https://edint.es/def/zona-regulatoria#RegulatedZone">Regulated Zone</a> <sup class="type-c" title="class">c</sup>
+    <a href="#CommercialSpace" title="https://edint.es/def/promocion-comercial#CommercialSpace">Commercial space</a> <sup class="type-c" title="class">c</sup>
    </dd>
   </dl>
  </div>
@@ -422,13 +383,9 @@ This section provides details for each class and property defined by Commercial 
    </dd>
   </dl>
   <dl class="description">
-   <dt>has sub-classes</dt>
-   <dd>
-    <a href="#https://edint.es/def/zona-regulatoria#EconomicInterestZone" title="https://edint.es/def/zona-regulatoria#EconomicInterestZone">Economic Interest Zone</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edint.es/def/zona-regulatoria#LeisureZone" title="https://edint.es/def/zona-regulatoria#LeisureZone">Leisure Zone</a> <sup class="type-c" title="class">c</sup>
-   </dd>
    <dt>is in domain of</dt>
    <dd>
-    <a href="#https://edint.es/def/zona-regulatoria#locatedIn" title="https://edint.es/def/zona-regulatoria#locatedIn">located In</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#https://edint.es/def/zona-regulatoria#hasRegulatedZoneType" title="https://edint.es/def/zona-regulatoria#hasRegulatedZoneType">has regulated zone type</a> <sup class="type-op" title="object property">op</sup>, <a href="#https://edint.es/def/zona-regulatoria#locatedIn" title="https://edint.es/def/zona-regulatoria#locatedIn">located In</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
@@ -462,22 +419,6 @@ This section provides details for each class and property defined by Commercial 
    <dt>is in domain of</dt>
    <dd>
     <a href="#http://vocab.ciudadesabiertas.es/def/transporte/trafico#finTramo" title="http://vocab.ciudadesabiertas.es/def/transporte/trafico#finTramo">Section end</a> <sup class="type-op" title="object property">op</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/transporte/trafico#inicioTramo" title="http://vocab.ciudadesabiertas.es/def/transporte/trafico#inicioTramo">Section start</a> <sup class="type-op" title="object property">op</sup>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="https://edint.es/def/zona-regulatoria#StreetVendingZone">
-  <h3>Street Vending Zone<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://edint.es/def/zona-regulatoria#StreetVendingZone</p>
-  <dl class="definedBy">
-   <dt>Is defined by</dt>
-   <dd>
-    <a href="https://edint.es/def/zona-regulatoria#">https://edint.es/def/zona-regulatoria#</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>has super-classes</dt>
-   <dd>
-    <a href="#https://edint.es/def/zona-regulatoria#EconomicInterestZone" title="https://edint.es/def/zona-regulatoria#EconomicInterestZone">Economic Interest Zone</a> <sup class="type-c" title="class">c</sup>
    </dd>
   </dl>
  </div>
@@ -517,17 +458,19 @@ This section provides details for each class and property defined by Commercial 
   <li><a href="#http://schema.org/eventSchedule" title="http://schema.org/eventSchedule"> <span>event Schedule</span> </a></li>
   <li><a href="#http://www.w3.org/2006/time#hasBeginning" title="http://www.w3.org/2006/time#hasBeginning">has beginning</a></li>
   <li><a href="#hasCommercialCampaignType" title="https://edint.es/def/promocion-comercial#hasCommercialCampaignType">has commercial campaign type</a></li>
-  <li><a href="#hasCommercialEventType" title="https://edint.es/def/promocion-comercial#hasCommercialEventType">has commercial event campaign</a></li>
+  <li><a href="#hasCommercialEventType" title="https://edint.es/def/promocion-comercial#hasCommercialEventType">has commercial event type</a></li>
   <li><a href="#http://www.w3.org/2006/time#hasEnd" title="http://www.w3.org/2006/time#hasEnd">has end</a></li>
   <li><a href="#http://www.opengis.net/ont/geosparql#hasGeometry" title="http://www.opengis.net/ont/geosparql#hasGeometry">has geometry</a></li>
+  <li><a href="#https://edint.es/def/zona-regulatoria#hasRegulatedZoneType" title="https://edint.es/def/zona-regulatoria#hasRegulatedZoneType">has regulated zone type</a></li>
   <li><a href="#http://www.w3.org/2004/02/skos/core#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme"> <span>in Scheme</span> </a></li>
   <li><a href="#includesCommercialSpace" title="https://edint.es/def/promocion-comercial#includesCommercialSpace">includes commercial space</a></li>
   <li><a href="#https://edint.es/def/zona-regulatoria#locatedIn" title="https://edint.es/def/zona-regulatoria#locatedIn"> <span>located In</span> </a></li>
-  <li><a href="#https://edint.es/def/censo-locales#locatedInZone" title="https://edint.es/def/censo-locales#locatedInZone"> <span>located In Zone</span> </a></li>
+  <li><a href="#https://edint.es/def/censo-locales#locatedInZone" title="https://edint.es/def/censo-locales#locatedInZone">located in zone</a></li>
   <li><a href="#locatedInZone" title="https://edint.es/def/promocion-comercial#locatedInZone">located in zone</a></li>
   <li><a href="#http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#municipio" title="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#municipio">pertenece a municipio</a></li>
   <li><a href="#http://vocab.ciudadesabiertas.es/def/transporte/trafico#finTramo" title="http://vocab.ciudadesabiertas.es/def/transporte/trafico#finTramo">Section end</a></li>
   <li><a href="#http://vocab.ciudadesabiertas.es/def/transporte/trafico#inicioTramo" title="http://vocab.ciudadesabiertas.es/def/transporte/trafico#inicioTramo">Section start</a></li>
+  <li><a href="#https://edint.es/def/agenda#eventType" title="https://edint.es/def/agenda#eventType">type of event</a></li>
  </ul>
  <div class="entity" id="http://schema.org/address">
   <h3>address<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
@@ -631,13 +574,17 @@ This section provides details for each class and property defined by Commercial 
   </div>
  </div>
  <div class="entity" id="hasCommercialEventType">
-  <h3>has commercial event campaign<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <h3>has commercial event type<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edint.es/def/promocion-comercial#hasCommercialEventType</p>
   <div class="comment">
    <span class="markdown">It relates an entity, especially a commercial event, to a skos concept that is in the commercial event type taxonomy.</span>
   </div>
   <div class="description">
    <dl>
+    <dt>has domain</dt>
+    <dd>
+     <a href="#CommercialEvent" title="https://edint.es/def/promocion-comercial#CommercialEvent">Commercial event</a> <sup class="type-c" title="class">c</sup>
+    </dd>
     <dt>has range</dt>
     <dd>
      <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup> <span class="logic">and</span> (<a href="#http://www.w3.org/2004/02/skos/core#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-op" title="object property">op</sup> <span class="logic">value</span> <a href="#https://edint.es/kos/CommercialEventType" title="https://edint.es/kos/CommercialEventType">Commercial event type</a> <sup class="type-ni" title="named individual">ni</sup>)
@@ -688,6 +635,31 @@ This section provides details for each class and property defined by Commercial 
    </dl>
   </div>
  </div>
+ <div class="entity" id="https://edint.es/def/zona-regulatoria#hasRegulatedZoneType">
+  <h3>has regulated zone type<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edint.es/def/zona-regulatoria#hasRegulatedZoneType</p>
+  <div class="comment">
+   <span class="markdown">links a regulated zone to its type classification from the RegulatedZoneType SKOS concept scheme.</span>
+  </div>
+  <dl class="definedBy">
+   <dt>Is defined by</dt>
+   <dd>
+    <a href="https://edint.es/def/zona-regulatoria#">https://edint.es/def/zona-regulatoria#</a>
+   </dd>
+  </dl>
+  <div class="description">
+   <dl>
+    <dt>has domain</dt>
+    <dd>
+     <a href="#https://edint.es/def/zona-regulatoria#RegulatedZone" title="https://edint.es/def/zona-regulatoria#RegulatedZone">Regulated Zone</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>has range</dt>
+    <dd>
+     <a href="#http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup> <span class="logic">and</span> (<a href="#http://www.w3.org/2004/02/skos/core#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-op" title="object property">op</sup> <span class="logic">value</span> <a href="#https://edint.es/kos/RegulatedZoneType" title="https://edint.es/kos/RegulatedZoneType">Regulated Zone Type</a> <sup class="type-ni" title="named individual">ni</sup>)
+    </dd>
+   </dl>
+  </div>
+ </div>
  <div class="entity" id="http://www.w3.org/2004/02/skos/core#inScheme">
   <h3>in Scheme<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#inScheme</p>
@@ -728,7 +700,7 @@ This section provides details for each class and property defined by Commercial 
   </div>
  </div>
  <div class="entity" id="https://edint.es/def/censo-locales#locatedInZone">
-  <h3>located In Zone<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <h3>located in zone<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edint.es/def/censo-locales#locatedInZone</p>
   <dl class="definedBy">
    <dt>Is defined by</dt>
@@ -741,7 +713,19 @@ This section provides details for each class and property defined by Commercial 
   <h3>located in zone<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edint.es/def/promocion-comercial#locatedInZone</p>
   <div class="comment">
-   <span class="markdown">It relates en entity, especially a commercial space, event or campaign, to the zone where it is.</span>
+   <span class="markdown">It relates en entity, event or campaign, to the zone where it is located.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>has domain</dt>
+    <dd>
+     <a href="#CommercialCampaign" title="https://edint.es/def/promocion-comercial#CommercialCampaign">Commercial campaign</a> <sup class="type-c" title="class">c</sup> <span class="logic">or</span> <a href="#CommercialEvent" title="https://edint.es/def/promocion-comercial#CommercialEvent">Commercial event</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>has range</dt>
+    <dd>
+     <a href="#https://edint.es/def/zona-regulatoria#RegulatedZone" title="https://edint.es/def/zona-regulatoria#RegulatedZone">Regulated Zone</a> <sup class="type-c" title="class">c</sup> <span class="logic">and</span> (<a href="#https://edint.es/def/zona-regulatoria#hasRegulatedZoneType" title="https://edint.es/def/zona-regulatoria#hasRegulatedZoneType">has regulated zone type</a> <sup class="type-op" title="object property">op</sup> <span class="logic">value</span> <a href="https://edint.es/kos/RegulatedZoneType/EconomicInterestZone" target="_blank" title="https://edint.es/kos/RegulatedZoneType/EconomicInterestZone">Economic Interest Zone</a> <sup class="type-ni" title="named individual">ni</sup>)
+    </dd>
+   </dl>
   </div>
  </div>
  <div class="entity" id="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#municipio">
@@ -813,6 +797,26 @@ This section provides details for each class and property defined by Commercial 
     <dt>has range</dt>
     <dd>
      <a href="#http://www.opengis.net/ont/sf#Point" title="http://www.opengis.net/ont/sf#Point">Point</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="https://edint.es/def/agenda#eventType">
+  <h3>type of event<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edint.es/def/agenda#eventType</p>
+  <div class="comment">
+   <span class="markdown">Type of event to be held.</span>
+  </div>
+  <div class="description">
+   <p><strong>has characteristics: </strong> functional</p>
+   <dl>
+    <dt>has domain</dt>
+    <dd>
+     <a href="#https://edint.es/def/agenda#CityEvent" title="https://edint.es/def/agenda#CityEvent">Evento</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>has range</dt>
+    <dd>
+     <a href="#http://www.w3.org/2004/02/skos/core#inScheme" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-op" title="object property">op</sup> <span class="logic">value</span> <a href="#https://edint.es/kos/EventType" title="https://edint.es/kos/EventType">Event Type</a> <sup class="type-ni" title="named individual">ni</sup>
     </dd>
    </dl>
   </div>
@@ -1027,11 +1031,13 @@ This section provides details for each class and property defined by Commercial 
   </div>
  </div>
 </div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
- <h3 id="namedindividuals" class="list">Named Individuals</h3>
+ <h3 id="namedindividuals-headline" class="list">Named Individuals</h3>
  <ul class="hlist">
   <li><a href="#https://edint.es/kos/CommercialCampaignType" title="https://edint.es/kos/CommercialCampaignType">Commercial campaign type</a></li>
   <li><a href="#https://edint.es/kos/CommercialEventType" title="https://edint.es/kos/CommercialEventType">Commercial event type</a></li>
+  <li><a href="#https://edint.es/kos/EventType" title="https://edint.es/kos/EventType"> <span>Event Type</span> </a></li>
   <li><a href="#https://edint.es/kos/IAE" title="https://edint.es/kos/IAE">IAE</a></li>
+  <li><a href="#https://edint.es/kos/RegulatedZoneType" title="https://edint.es/kos/RegulatedZoneType"> <span>Regulated Zone Type</span> </a></li>
  </ul>
  <div class="entity" id="https://edint.es/kos/CommercialCampaignType">
   <h3>Commercial campaign type<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
@@ -1053,9 +1059,29 @@ This section provides details for each class and property defined by Commercial 
    </dd>
   </dl>
  </div>
+ <div class="entity" id="https://edint.es/kos/EventType">
+  <h3>Event Type<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edint.es/kos/EventType</p>
+  <dl class="description">
+   <dt>belongs to</dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#ConceptScheme" title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
  <div class="entity" id="https://edint.es/kos/IAE">
   <h3>IAE<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edint.es/kos/IAE</p>
+  <dl class="description">
+   <dt>belongs to</dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#ConceptScheme" title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edint.es/kos/RegulatedZoneType">
+  <h3>Regulated Zone Type<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edint.es/kos/RegulatedZoneType</p>
   <dl class="description">
    <dt>belongs to</dt>
    <dd>
