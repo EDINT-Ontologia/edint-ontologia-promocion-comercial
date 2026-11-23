@@ -48,3 +48,28 @@ ex:ZONA-CHAMBERI-001 a edintzone:EconomicInterestZone;
 
 ex:MADRID a esadm:Municipio;
   rdfs:label "Ayuntamiento de Madrid"@es .
+
+ex:CAMP-2026-USERA-001
+  a edintpro:CommercialCampaign;
+  dcterms:identifier "CAMP-2026-USERA-001";
+  rdfs:comment "Campaña de revitalización del comercio de proximidad en el eje comercial de la calle Marcelo Usera, con participación de los mercados municipales y de las tiendas de barrio tradicionales.";
+  schema:endDate "2026-10-08T16:30:00"^^xsd:dateTime;
+  schema:startDate "2026-10-06T12:30:00"^^xsd:dateTime;
+  edintpro:includesCommercialSpace ex:COM-USERA-0001, ex:COM-USERA-0002;
+  edintpro:numberOfCommercialSpaces 30;
+  edintpro:locatedInZone ex:ZONA-USERA-001;
+  edintpro:hasCommercialCampaignType edintkoaccCamtype:Revitalization;
+  rdfs:label "Usera Próxima" .
+
+ex:COM-USERA-0001 a edintcom:CommercialSpace;
+  edintpro:locatedInZone ex:ZONA-USERA-001 .
+
+ex:COM-USERA-0002 a edintcom:CommercialSpace;
+  edintpro:locatedInZone ex:ZONA-USERA-001 .
+
+ex:ZONA-USERA-001 a edintzone:EconomicInterestZone;
+  dcterms:identifier "ZONA-USERA-001";
+  esadm:municipio ex:MADRID;
+  geosparql:hasGeometry ex:ZONA-USERA-001-geometry;
+  rdfs:comment "Zona de interés económico de la calle de Marcelo Usera, eje comercial del distrito: concentra comercio tradicional junto a negocios de la comunidad china, restaurantes, panaderías asiáticas y servicios de proximidad.";
+  rdfs:label "Calle de Marcelo Usera" .
